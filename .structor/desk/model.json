@@ -21,21 +21,168 @@
                 {
                   "type": "div",
                   "variant": "default",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {},
+                      "children": [
+                        {
+                          "type": "nav",
+                          "variant": "default",
+                          "props": {},
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {},
+                              "children": [
+                                {
+                                  "type": "p",
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "text": "Moon"
+                                    }
+                                  ],
+                                  "props": {
+                                    "style": {
+                                      "fontWeight": 300,
+                                      "backgroundColor": "rgba(253, 212, 182, 0.7)"
+                                    }
+                                  }
+                                },
+                                {
+                                  "type": "p",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "fontSize": "17px",
+                                      "fontWeight": 300,
+                                      "textAlign": "center",
+                                      "backgroundColor": "rgba(252, 229, 204, 0.77)"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "span",
+                                      "text": "Ye"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "p",
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "text": "Seong",
+                                  "props": {}
+                                }
+                              ],
+                              "props": {
+                                "style": {
+                                  "fontWeight": 300,
+                                  "textAlign": "right",
+                                  "backgroundColor": "rgba(253, 237, 213, 0.74)"
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "footer",
+                          "variant": "default",
+                          "props": {},
+                          "children": []
+                        },
+                        {
+                          "type": "div",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "display": "flex",
+                              "justifyContent": "center",
+                              "height": "100px",
+                              "alignItems": "center",
+                              "backgroundColor": "#fcecd7",
+                              "borderRadius": "4px"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "text": "Empty div",
+                              "props": {}
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "display": "flex",
+                          "justifyContent": "center",
+                          "height": "137px",
+                          "alignItems": "center",
+                          "backgroundColor": "#fcecd7",
+                          "borderRadius": "4px"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "img",
+                          "variant": "default",
+                          "props": {
+                            "src": "https://i.pinimg.com/originals/1c/e1/eb/1ce1ebc8c5a1203f9706486d52165fd3.jpg",
+                            "style": {
+                              "width": "15%",
+                              "paddingLeft": "5px",
+                              "display": "block",
+                              "padding": "5px",
+                              "color": "#ffffff",
+                              "height": "250%"
+                            }
+                          },
+                          "children": []
+                        },
+                        {
+                          "type": "span",
+                          "text": "",
+                          "props": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "div",
+                  "variant": "default",
                   "props": {
                     "style": {
                       "display": "flex",
                       "justifyContent": "center",
-                      "height": "100px",
+                      "height": "100%",
                       "alignItems": "center",
-                      "backgroundColor": "#fcecd7",
+                      "backgroundColor": "#fdc3b3",
                       "borderRadius": "4px"
                     }
                   },
                   "children": [
                     {
                       "type": "span",
-                      "text": "@.@",
-                      "props": {}
+                      "text": "",
+                      "props": {
+                        "style": {
+                          "color": "#ffffff"
+                        }
+                      },
+                      "children": []
                     }
                   ]
                 }
@@ -58,10 +205,10 @@
               "children": [
                 {
                   "type": "span",
-                  "text": "Hello world!",
+                  "text": "Hi, Hello",
                   "props": {
                     "style": {
-                      "lineHeight": "20px",
+                      "lineHeight": "18px",
                       "backgroundColor": "rgba(255, 243, 241, 0.84)",
                       "color": "#fc4f4f",
                       "fontSize": "56px",
@@ -69,7 +216,8 @@
                       "fontStyle": "oblique",
                       "padding": "0px",
                       "paddingLeft": "2px",
-                      "paddingRight": "11px"
+                      "paddingRight": "11px",
+                      "fontFamily": "Oleo Script"
                     }
                   }
                 },
@@ -84,7 +232,7 @@
                   "children": [
                     {
                       "type": "span",
-                      "text": "I'm yeseong",
+                      "text": "I'm Ye Seong Moon,",
                       "props": {
                         "style": {
                           "color": "rgba(240, 231, 174, 0.84)",
@@ -130,7 +278,13 @@
             {
               "type": "div",
               "variant": "default",
-              "props": {},
+              "props": {
+                "style": {
+                  "fontWeight": 300,
+                  "fontSize": "10px",
+                  "backgroundColor": "#f8e2e2"
+                }
+              },
               "children": [
                 {
                   "type": "div",
@@ -142,22 +296,75 @@
                       "height": "100px",
                       "alignItems": "center",
                       "backgroundColor": "#fcecd7",
-                      "borderRadius": "4px"
+                      "borderRadius": "4px",
+                      "fontFamily": "Allan"
                     }
                   },
                   "children": [
                     {
                       "type": "span",
-                      "text": "2019.01",
+                      "text": "seoul based ux/ui designer",
                       "props": {
                         "style": {
-                          "fontSize": "17px",
+                          "fontSize": "24px",
                           "paddingBottom": "-3px",
-                          "marginBottom": "-10px"
+                          "marginBottom": "-10px",
+                          "fontFamily": "Allan",
+                          "fontWeight": 300
                         }
                       }
                     }
                   ]
+                },
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "callyestr@gmail.com",
+                      "props": {
+                        "style": {
+                          "fontWeight": 275,
+                          "fontSize": "13px"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "a",
+                  "variant": "default",
+                  "props": {
+                    "href": "#"
+                  },
+                  "children": [
+                    {
+                      "type": "a",
+                      "variant": "default",
+                      "props": {
+                        "href": "https://www.instagram.com/ye_se_m/",
+                        "style": {
+                          "fontWeight": 300
+                        },
+                        "target": "_blank"
+                      },
+                      "children": [
+                        {
+                          "type": "span",
+                          "text": "Instagram",
+                          "props": {
+                            "style": {
+                              "fontSize": "14px"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "p",
+                  "children": []
                 }
               ]
             }

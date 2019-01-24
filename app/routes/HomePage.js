@@ -15,17 +15,88 @@ class HomePage extends Component {
 
         <div style={{ color: "#fa3b3b" }}>
           <div>
+            <div>
+              <div>
+                <nav>
+                  <div>
+                    <p
+                      style={{
+                        fontWeight: 300,
+                        backgroundColor: "rgba(253, 212, 182, 0.7)"
+                      }}
+                    >
+                      <span>Moon</span>
+                    </p>
+                    <p
+                      style={{
+                        fontSize: "17px",
+                        fontWeight: 300,
+                        textAlign: "center",
+                        backgroundColor: "rgba(252, 229, 204, 0.77)"
+                      }}
+                    >
+                      <span>Ye</span>
+                    </p>
+                  </div>
+                  <p
+                    style={{
+                      fontWeight: 300,
+                      textAlign: "right",
+                      backgroundColor: "rgba(253, 237, 213, 0.74)"
+                    }}
+                  >
+                    <span>Seong</span>
+                  </p>
+                </nav>
+                <footer />
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    height: "100px",
+                    alignItems: "center",
+                    backgroundColor: "#fcecd7",
+                    borderRadius: "4px"
+                  }}
+                >
+                  <span>Empty div</span>
+                </div>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  height: "137px",
+                  alignItems: "center",
+                  backgroundColor: "#fcecd7",
+                  borderRadius: "4px"
+                }}
+              >
+                <img
+                  src="https://i.pinimg.com/originals/1c/e1/eb/1ce1ebc8c5a1203f9706486d52165fd3.jpg"
+                  style={{
+                    width: "15%",
+                    paddingLeft: "5px",
+                    display: "block",
+                    padding: "5px",
+                    color: "#ffffff",
+                    height: "250%"
+                  }}
+                />
+                <span />
+              </div>
+            </div>
             <div
               style={{
                 display: "flex",
                 justifyContent: "center",
-                height: "100px",
+                height: "100%",
                 alignItems: "center",
-                backgroundColor: "#fcecd7",
+                backgroundColor: "#fdc3b3",
                 borderRadius: "4px"
               }}
             >
-              <span>@.@</span>
+              <span style={{ color: "#ffffff" }} />
             </div>
           </div>
           <div
@@ -41,7 +112,7 @@ class HomePage extends Component {
           >
             <span
               style={{
-                lineHeight: "20px",
+                lineHeight: "18px",
                 backgroundColor: "rgba(255, 243, 241, 0.84)",
                 color: "#fc4f4f",
                 fontSize: "56px",
@@ -49,10 +120,11 @@ class HomePage extends Component {
                 fontStyle: "oblique",
                 padding: "0px",
                 paddingLeft: "2px",
-                paddingRight: "11px"
+                paddingRight: "11px",
+                fontFamily: "Oleo Script"
               }}
             >
-              Hello world!
+              Hi, Hello
             </span>
             <h2 style={{ padding: "21px" }}>
               <span
@@ -68,7 +140,7 @@ class HomePage extends Component {
                   fontWeight: 200
                 }}
               >
-                I'm yeseong
+                I'm Ye Seong Moon,
               </span>
               <h3 />
               <div />
@@ -76,7 +148,13 @@ class HomePage extends Component {
             </h2>
             <main />
           </div>
-          <div>
+          <div
+            style={{
+              fontWeight: 300,
+              fontSize: "10px",
+              backgroundColor: "#f8e2e2"
+            }}
+          >
             <div
               style={{
                 display: "flex",
@@ -84,19 +162,37 @@ class HomePage extends Component {
                 height: "100px",
                 alignItems: "center",
                 backgroundColor: "#fcecd7",
-                borderRadius: "4px"
+                borderRadius: "4px",
+                fontFamily: "Allan"
               }}
             >
               <span
                 style={{
-                  fontSize: "17px",
+                  fontSize: "24px",
                   paddingBottom: "-3px",
-                  marginBottom: "-10px"
+                  marginBottom: "-10px",
+                  fontFamily: "Allan",
+                  fontWeight: 300
                 }}
               >
-                2019.01
+                seoul based ux/ui designer
               </span>
             </div>
+            <p>
+              <span style={{ fontWeight: 275, fontSize: "13px" }}>
+                callyestr@gmail.com
+              </span>
+            </p>
+            <a href="#">
+              <a
+                href="https://www.instagram.com/ye_se_m/"
+                style={{ fontWeight: 300 }}
+                target="_blank"
+              >
+                <span style={{ fontSize: "14px" }}>Instagram</span>
+              </a>
+            </a>
+            <p />
           </div>
         </div>
 
