@@ -9,34 +9,155 @@
           "variant": "default",
           "props": {
             "style": {
-              "color": "#6b6161"
+              "color": "#fa3b3b"
             }
           },
           "children": [
             {
               "type": "div",
               "variant": "default",
+              "props": {},
+              "children": [
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "display": "flex",
+                      "justifyContent": "center",
+                      "height": "100px",
+                      "alignItems": "center",
+                      "backgroundColor": "#fcecd7",
+                      "borderRadius": "4px"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "@.@",
+                      "props": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
               "props": {
                 "style": {
                   "height": "100px",
-                  "backgroundColor": "#fcecd7",
-                  "borderRadius": "4px",
+                  "backgroundColor": "#fdcdce",
                   "textAlign": "center",
                   "paddingTop": "40px",
-                  "paddingBottom": "40px"
+                  "paddingBottom": "40px",
+                  "borderRadius": "3px",
+                  "display": "block"
                 }
               },
               "children": [
                 {
                   "type": "span",
-                  "text": "Hello Colorful World 🖍🖍",
+                  "text": "Hello world!",
                   "props": {
                     "style": {
                       "lineHeight": "20px",
-                      "backgroundColor": "#b8e986",
-                      "color": "#4a90e2"
+                      "backgroundColor": "rgba(255, 243, 241, 0.84)",
+                      "color": "#fc4f4f",
+                      "fontSize": "56px",
+                      "fontWeight": 306,
+                      "fontStyle": "oblique",
+                      "padding": "0px",
+                      "paddingLeft": "2px",
+                      "paddingRight": "11px"
                     }
                   }
+                },
+                {
+                  "type": "h2",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "padding": "21px"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "I'm yeseong",
+                      "props": {
+                        "style": {
+                          "color": "rgba(240, 231, 174, 0.84)",
+                          "backgroundColor": "rgba(247, 37, 37, 0.84)",
+                          "fontSize": "28px",
+                          "fontStyle": "oblique",
+                          "paddingLeft": "5px",
+                          "paddingRight": "5px",
+                          "paddingBottom": "5px",
+                          "padding": "7px",
+                          "fontWeight": 200
+                        }
+                      }
+                    },
+                    {
+                      "type": "h3",
+                      "variant": "default",
+                      "props": {},
+                      "children": []
+                    },
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {},
+                      "children": []
+                    },
+                    {
+                      "type": "article",
+                      "variant": "default",
+                      "props": {},
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "type": "main",
+                  "variant": "default",
+                  "props": {},
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {},
+              "children": [
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "display": "flex",
+                      "justifyContent": "center",
+                      "height": "100px",
+                      "alignItems": "center",
+                      "backgroundColor": "#fcecd7",
+                      "borderRadius": "4px"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "2019.01",
+                      "props": {
+                        "style": {
+                          "fontSize": "17px",
+                          "paddingBottom": "-3px",
+                          "marginBottom": "-10px"
+                        }
+                      }
+                    }
+                  ]
                 }
               ]
             }
