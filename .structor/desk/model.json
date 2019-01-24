@@ -43,7 +43,12 @@
                                   "children": [
                                     {
                                       "type": "span",
-                                      "text": "Moon"
+                                      "text": "Moon",
+                                      "props": {
+                                        "style": {
+                                          "fontFamily": "Roboto"
+                                        }
+                                      }
                                     }
                                   ],
                                   "props": {
@@ -61,7 +66,8 @@
                                       "fontSize": "17px",
                                       "fontWeight": 300,
                                       "textAlign": "center",
-                                      "backgroundColor": "rgba(252, 229, 204, 0.77)"
+                                      "backgroundColor": "rgba(252, 229, 204, 0.77)",
+                                      "fontFamily": "Roboto"
                                     }
                                   },
                                   "children": [
@@ -79,7 +85,11 @@
                                 {
                                   "type": "span",
                                   "text": "Seong",
-                                  "props": {}
+                                  "props": {
+                                    "style": {
+                                      "fontFamily": "Roboto"
+                                    }
+                                  }
                                 }
                               ],
                               "props": {
@@ -97,27 +107,6 @@
                           "variant": "default",
                           "props": {},
                           "children": []
-                        },
-                        {
-                          "type": "div",
-                          "variant": "default",
-                          "props": {
-                            "style": {
-                              "display": "flex",
-                              "justifyContent": "center",
-                              "height": "100px",
-                              "alignItems": "center",
-                              "backgroundColor": "#fcecd7",
-                              "borderRadius": "4px"
-                            }
-                          },
-                          "children": [
-                            {
-                              "type": "span",
-                              "text": "Empty div",
-                              "props": {}
-                            }
-                          ]
                         }
                       ]
                     },
@@ -128,7 +117,7 @@
                         "style": {
                           "display": "flex",
                           "justifyContent": "center",
-                          "height": "137px",
+                          "height": "100%",
                           "alignItems": "center",
                           "backgroundColor": "#fcecd7",
                           "borderRadius": "4px"
@@ -142,11 +131,13 @@
                             "src": "https://i.pinimg.com/originals/1c/e1/eb/1ce1ebc8c5a1203f9706486d52165fd3.jpg",
                             "style": {
                               "width": "15%",
-                              "paddingLeft": "5px",
                               "display": "block",
                               "padding": "5px",
                               "color": "#ffffff",
-                              "height": "250%"
+                              "height": "250%",
+                              "margin": "5px",
+                              "backgroundColor": "#f86161",
+                              "paddingLeft": "5px"
                             }
                           },
                           "children": []
@@ -243,7 +234,8 @@
                           "paddingRight": "5px",
                           "paddingBottom": "5px",
                           "padding": "7px",
-                          "fontWeight": 200
+                          "fontFamily": "Roboto",
+                          "fontWeight": 220
                         }
                       }
                     },
@@ -282,7 +274,8 @@
                 "style": {
                   "fontWeight": 300,
                   "fontSize": "10px",
-                  "backgroundColor": "#f8e2e2"
+                  "backgroundColor": "#f8e2e2",
+                  "fontFamily": "Roboto"
                 }
               },
               "children": [
@@ -297,7 +290,8 @@
                       "alignItems": "center",
                       "backgroundColor": "#fcecd7",
                       "borderRadius": "4px",
-                      "fontFamily": "Allan"
+                      "fontFamily": "Allan",
+                      "fontSize": "16px"
                     }
                   },
                   "children": [
@@ -329,7 +323,12 @@
                         }
                       }
                     }
-                  ]
+                  ],
+                  "props": {
+                    "style": {
+                      "fontFamily": "Roboto"
+                    }
+                  }
                 },
                 {
                   "type": "a",

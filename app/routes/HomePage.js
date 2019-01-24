@@ -25,14 +25,15 @@ class HomePage extends Component {
                         backgroundColor: "rgba(253, 212, 182, 0.7)"
                       }}
                     >
-                      <span>Moon</span>
+                      <span style={{ fontFamily: "Roboto" }}>Moon</span>
                     </p>
                     <p
                       style={{
                         fontSize: "17px",
                         fontWeight: 300,
                         textAlign: "center",
-                        backgroundColor: "rgba(252, 229, 204, 0.77)"
+                        backgroundColor: "rgba(252, 229, 204, 0.77)",
+                        fontFamily: "Roboto"
                       }}
                     >
                       <span>Ye</span>
@@ -45,28 +46,16 @@ class HomePage extends Component {
                       backgroundColor: "rgba(253, 237, 213, 0.74)"
                     }}
                   >
-                    <span>Seong</span>
+                    <span style={{ fontFamily: "Roboto" }}>Seong</span>
                   </p>
                 </nav>
                 <footer />
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                    height: "100px",
-                    alignItems: "center",
-                    backgroundColor: "#fcecd7",
-                    borderRadius: "4px"
-                  }}
-                >
-                  <span>Empty div</span>
-                </div>
               </div>
               <div
                 style={{
                   display: "flex",
                   justifyContent: "center",
-                  height: "137px",
+                  height: "100%",
                   alignItems: "center",
                   backgroundColor: "#fcecd7",
                   borderRadius: "4px"
@@ -76,11 +65,13 @@ class HomePage extends Component {
                   src="https://i.pinimg.com/originals/1c/e1/eb/1ce1ebc8c5a1203f9706486d52165fd3.jpg"
                   style={{
                     width: "15%",
-                    paddingLeft: "5px",
                     display: "block",
                     padding: "5px",
                     color: "#ffffff",
-                    height: "250%"
+                    height: "250%",
+                    margin: "5px",
+                    backgroundColor: "#f86161",
+                    paddingLeft: "5px"
                   }}
                 />
                 <span />
@@ -137,7 +128,8 @@ class HomePage extends Component {
                   paddingRight: "5px",
                   paddingBottom: "5px",
                   padding: "7px",
-                  fontWeight: 200
+                  fontFamily: "Roboto",
+                  fontWeight: 220
                 }}
               >
                 I'm Ye Seong Moon,
@@ -152,7 +144,8 @@ class HomePage extends Component {
             style={{
               fontWeight: 300,
               fontSize: "10px",
-              backgroundColor: "#f8e2e2"
+              backgroundColor: "#f8e2e2",
+              fontFamily: "Roboto"
             }}
           >
             <div
@@ -163,7 +156,8 @@ class HomePage extends Component {
                 alignItems: "center",
                 backgroundColor: "#fcecd7",
                 borderRadius: "4px",
-                fontFamily: "Allan"
+                fontFamily: "Allan",
+                fontSize: "16px"
               }}
             >
               <span
@@ -178,7 +172,7 @@ class HomePage extends Component {
                 seoul based ux/ui designer
               </span>
             </div>
-            <p>
+            <p style={{ fontFamily: "Roboto" }}>
               <span style={{ fontWeight: 275, fontSize: "13px" }}>
                 callyestr@gmail.com
               </span>
