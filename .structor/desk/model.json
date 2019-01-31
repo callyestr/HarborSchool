@@ -9,102 +9,39 @@
           "variant": "default",
           "props": {
             "style": {
-              "padding": "25px",
-              "backgroundColor": "#ffffff"
+              "backgroundColor": "#ffffff",
+              "height": "30px",
+              "display": "block",
+              "position": "relative"
             }
           },
           "children": [
             {
-              "type": "div",
+              "type": "span",
               "variant": "default",
               "props": {},
+              "children": [],
+              "text": ""
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "position": "absolute",
+                  "backgroundColor": "#e0cece",
+                  "height": "30px",
+                  "width": "5%",
+                  "left": "0px"
+                }
+              },
               "children": [
                 {
-                  "type": "Row",
+                  "type": "span",
                   "variant": "default",
-                  "children": [
-                    {
-                      "type": "Column",
-                      "variant": "default",
-                      "children": [],
-                      "namespace": "Layout",
-                      "props": {
-                        "col": "2",
-                        "style": {
-                          "backgroundColor": "#e9c5c5"
-                        }
-                      }
-                    },
-                    {
-                      "type": "Column",
-                      "variant": "default",
-                      "children": [],
-                      "namespace": "Layout",
-                      "props": {
-                        "col": "2",
-                        "style": {
-                          "backgroundColor": "#ffffff"
-                        }
-                      }
-                    },
-                    {
-                      "type": "Column",
-                      "variant": "default",
-                      "children": [],
-                      "namespace": "Layout",
-                      "props": {
-                        "col": "2",
-                        "style": {
-                          "backgroundColor": "#ffffff"
-                        }
-                      }
-                    },
-                    {
-                      "type": "Column",
-                      "variant": "default",
-                      "children": [],
-                      "namespace": "Layout",
-                      "props": {
-                        "col": "2",
-                        "style": {
-                          "backgroundColor": "#e9c8c8",
-                          "color": "#ffffff"
-                        }
-                      }
-                    },
-                    {
-                      "type": "Column",
-                      "variant": "default",
-                      "children": [],
-                      "namespace": "Layout",
-                      "props": {
-                        "col": "2",
-                        "style": {
-                          "backgroundColor": "#ffffff"
-                        }
-                      }
-                    },
-                    {
-                      "type": "Column",
-                      "variant": "default",
-                      "children": [],
-                      "namespace": "Layout",
-                      "props": {
-                        "col": "2",
-                        "style": {
-                          "backgroundColor": "#e7bcbc"
-                        }
-                      }
-                    }
-                  ],
-                  "namespace": "Layout",
-                  "props": {
-                    "style": {
-                      "backgroundColor": "#ffffff",
-                      "height": "53px"
-                    },
-                    "col": "3"
-                  }
+                  "props": {},
+                  "children": [],
+                  "text": ""
                 }
               ]
             },
@@ -113,82 +50,26 @@
               "variant": "default",
               "props": {
                 "style": {
-                  "display": "flex",
-                  "justifyContent": "center",
-                  "height": "40px",
-                  "alignItems": "center",
-                  "backgroundColor": "#ffffff",
-                  "borderRadius": "4px"
+                  "height": "30px",
+                  "width": "20%",
+                  "position": "absolute",
+                  "left": "55px",
+                  "marginLeft": "1%"
                 }
               },
-              "children": []
-            },
-            {
-              "type": "div",
-              "variant": "default",
-              "props": {},
               "children": [
                 {
-                  "type": "Row",
+                  "type": "img",
                   "variant": "default",
-                  "children": [
-                    {
-                      "type": "Column",
-                      "variant": "default",
-                      "children": [],
-                      "namespace": "Layout",
-                      "props": {
-                        "col": "6",
-                        "style": {
-                          "backgroundColor": "#d89494"
-                        }
-                      }
-                    },
-                    {
-                      "type": "Column",
-                      "variant": "default",
-                      "children": [
-                        {
-                          "type": "span",
-                          "variant": "default",
-                          "props": {
-                            "style": {
-                              "backgroundColor": "#ffffff"
-                            }
-                          },
-                          "children": [],
-                          "text": ""
-                        }
-                      ],
-                      "namespace": "Layout",
-                      "props": {
-                        "col": "6",
-                        "style": {
-                          "backgroundColor": "#ffffff",
-                          "height": "100px"
-                        }
-                      }
-                    },
-                    {
-                      "type": "Column",
-                      "variant": "default",
-                      "children": [],
-                      "namespace": "Layout",
-                      "props": {
-                        "col": "6",
-                        "style": {
-                          "backgroundColor": "#ffffff"
-                        }
-                      }
-                    }
-                  ],
-                  "namespace": "Layout",
                   "props": {
+                    "src": "https://amp.businessinsider.com/images/59a59a8d79bbfd1d008b601a-960-480.png",
                     "style": {
-                      "backgroundColor": "#ffffff"
-                    },
-                    "col": "3"
-                  }
+                      "width": "68px",
+                      "height": "100%",
+                      "marginLeft": "15px"
+                    }
+                  },
+                  "children": []
                 }
               ]
             },
@@ -197,490 +78,130 @@
               "variant": "default",
               "props": {
                 "style": {
-                  "display": "flex",
-                  "justifyContent": "center",
-                  "height": "40px",
-                  "alignItems": "center",
-                  "backgroundColor": "#ffffff",
-                  "borderRadius": "4px"
+                  "position": "absolute",
+                  "backgroundColor": "#e0cece",
+                  "height": "30px",
+                  "width": "45%",
+                  "left": "25%"
                 }
               },
-              "children": []
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {},
+                  "children": [],
+                  "text": ""
+                }
+              ]
             },
             {
               "type": "div",
               "variant": "default",
               "props": {
                 "style": {
-                  "height": "200px"
+                  "position": "absolute",
+                  "backgroundColor": "#e0cece",
+                  "height": "30px",
+                  "width": "3%",
+                  "right": "25%"
                 }
               },
               "children": [
                 {
-                  "type": "Row",
-                  "variant": "default",
-                  "children": [
-                    {
-                      "type": "Column",
-                      "variant": "default",
-                      "children": [],
-                      "namespace": "Layout",
-                      "props": {
-                        "col": "12",
-                        "style": {
-                          "backgroundColor": "#a26565",
-                          "height": "1000px"
-                        }
-                      }
-                    }
-                  ],
-                  "namespace": "Layout",
-                  "props": {
-                    "style": {
-                      "backgroundColor": "#ffffff",
-                      "height": "100%"
-                    },
-                    "col": "3"
-                  }
-                },
-                {
-                  "type": "div",
-                  "variant": "default",
-                  "props": {
-                    "style": {
-                      "display": "flex",
-                      "justifyContent": "center",
-                      "height": "30px",
-                      "alignItems": "center",
-                      "backgroundColor": "#ffffff",
-                      "borderRadius": "4px"
-                    }
-                  },
-                  "children": []
-                },
-                {
-                  "type": "div",
+                  "type": "span",
                   "variant": "default",
                   "props": {},
-                  "children": [
-                    {
-                      "type": "Row",
-                      "variant": "default",
-                      "children": [
-                        {
-                          "type": "Column",
-                          "variant": "default",
-                          "children": [],
-                          "namespace": "Layout",
-                          "props": {
-                            "col": "1",
-                            "style": {
-                              "backgroundColor": "#b49595"
-                            }
-                          }
-                        },
-                        {
-                          "type": "Column",
-                          "variant": "default",
-                          "children": [],
-                          "namespace": "Layout",
-                          "props": {
-                            "col": "1"
-                          }
-                        },
-                        {
-                          "type": "Column",
-                          "variant": "default",
-                          "children": [],
-                          "namespace": "Layout",
-                          "props": {
-                            "col": "1"
-                          }
-                        },
-                        {
-                          "type": "Column",
-                          "variant": "default",
-                          "children": [],
-                          "namespace": "Layout",
-                          "props": {
-                            "col": "1"
-                          }
-                        },
-                        {
-                          "type": "Column",
-                          "variant": "default",
-                          "children": [],
-                          "namespace": "Layout",
-                          "props": {
-                            "col": "1"
-                          }
-                        },
-                        {
-                          "type": "Column",
-                          "variant": "default",
-                          "children": [],
-                          "namespace": "Layout",
-                          "props": {
-                            "col": "1"
-                          }
-                        },
-                        {
-                          "type": "Column",
-                          "variant": "default",
-                          "children": [],
-                          "namespace": "Layout",
-                          "props": {
-                            "col": "1"
-                          }
-                        },
-                        {
-                          "type": "Column",
-                          "variant": "default",
-                          "children": [],
-                          "namespace": "Layout",
-                          "props": {
-                            "col": "1"
-                          }
-                        },
-                        {
-                          "type": "Column",
-                          "variant": "default",
-                          "children": [],
-                          "namespace": "Layout",
-                          "props": {
-                            "col": "1"
-                          }
-                        },
-                        {
-                          "type": "Column",
-                          "variant": "default",
-                          "children": [],
-                          "namespace": "Layout",
-                          "props": {
-                            "col": "1"
-                          }
-                        },
-                        {
-                          "type": "Column",
-                          "variant": "default",
-                          "children": [],
-                          "namespace": "Layout",
-                          "props": {
-                            "col": "1"
-                          }
-                        },
-                        {
-                          "type": "Column",
-                          "variant": "default",
-                          "children": [],
-                          "namespace": "Layout",
-                          "props": {
-                            "col": "1"
-                          }
-                        }
-                      ],
-                      "namespace": "Layout",
-                      "props": {
-                        "style": {
-                          "backgroundColor": "#ffffff",
-                          "height": "30px"
-                        },
-                        "col": "3"
-                      }
-                    }
-                  ]
-                },
+                  "children": [],
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "position": "absolute",
+                  "backgroundColor": "#e0cece",
+                  "height": "30px",
+                  "width": "3%",
+                  "right": "20%"
+                }
+              },
+              "children": [
                 {
-                  "type": "div",
-                  "variant": "default",
-                  "props": {
-                    "style": {
-                      "display": "flex",
-                      "justifyContent": "center",
-                      "height": "30px",
-                      "alignItems": "center",
-                      "backgroundColor": "#ffffff",
-                      "borderRadius": "4px"
-                    }
-                  },
-                  "children": []
-                },
-                {
-                  "type": "div",
-                  "variant": "default",
-                  "props": {
-                    "style": {
-                      "height": "356px"
-                    }
-                  },
-                  "children": [
-                    {
-                      "type": "Row",
-                      "variant": "default",
-                      "children": [
-                        {
-                          "type": "Column",
-                          "variant": "default",
-                          "children": [
-                            {
-                              "type": "div",
-                              "variant": "default",
-                              "props": {},
-                              "children": [
-                                {
-                                  "type": "div",
-                                  "variant": "default",
-                                  "props": {
-                                    "style": {
-                                      "display": "flex",
-                                      "justifyContent": "center",
-                                      "height": "250px",
-                                      "alignItems": "center",
-                                      "backgroundColor": "#d8bfbd",
-                                      "borderRadius": "4px",
-                                      "width": "100%"
-                                    }
-                                  },
-                                  "children": []
-                                }
-                              ]
-                            }
-                          ],
-                          "namespace": "Layout",
-                          "props": {
-                            "col": "3",
-                            "style": {
-                              "height": "220px",
-                              "paddingRight": "20px"
-                            }
-                          }
-                        },
-                        {
-                          "type": "Column",
-                          "variant": "default",
-                          "children": [
-                            {
-                              "type": "div",
-                              "variant": "default",
-                              "props": {
-                                "style": {
-                                  "display": "flex",
-                                  "justifyContent": "center",
-                                  "height": "350px",
-                                  "alignItems": "center",
-                                  "backgroundColor": "#cca99f",
-                                  "borderRadius": "4px",
-                                  "width": "100%",
-                                  "paddingRight": "5px"
-                                }
-                              },
-                              "children": []
-                            }
-                          ],
-                          "namespace": "Layout",
-                          "props": {
-                            "col": "3",
-                            "style": {
-                              "paddingLeft": "5px",
-                              "paddingRight": "20px"
-                            }
-                          }
-                        },
-                        {
-                          "type": "Column",
-                          "variant": "default",
-                          "children": [
-                            {
-                              "type": "div",
-                              "variant": "default",
-                              "props": {
-                                "style": {
-                                  "display": "flex",
-                                  "justifyContent": "center",
-                                  "height": "350px",
-                                  "alignItems": "center",
-                                  "backgroundColor": "#c7a2a2",
-                                  "borderRadius": "4px",
-                                  "width": "100%"
-                                }
-                              },
-                              "children": []
-                            }
-                          ],
-                          "namespace": "Layout",
-                          "props": {
-                            "col": "3",
-                            "style": {
-                              "paddingLeft": "5px",
-                              "paddingRight": "20px"
-                            }
-                          }
-                        },
-                        {
-                          "type": "Column",
-                          "variant": "default",
-                          "children": [
-                            {
-                              "type": "div",
-                              "variant": "default",
-                              "props": {
-                                "style": {
-                                  "display": "flex",
-                                  "justifyContent": "center",
-                                  "height": "300px",
-                                  "alignItems": "center",
-                                  "borderRadius": "4px",
-                                  "width": "100%",
-                                  "paddingLeft": "5px",
-                                  "backgroundColor": "#c2a2a2"
-                                }
-                              },
-                              "children": []
-                            }
-                          ],
-                          "namespace": "Layout",
-                          "props": {
-                            "col": "3",
-                            "style": {
-                              "paddingLeft": "5px"
-                            }
-                          }
-                        }
-                      ],
-                      "namespace": "Layout",
-                      "props": {
-                        "style": {
-                          "backgroundColor": "#ffffff",
-                          "height": "400px"
-                        },
-                        "col": "3"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "type": "div",
-                  "variant": "default",
-                  "props": {
-                    "style": {
-                      "height": "50px",
-                      "backgroundColor": "#ffffff"
-                    }
-                  },
-                  "children": [
-                    {
-                      "type": "Row",
-                      "variant": "default",
-                      "children": [
-                        {
-                          "type": "Column",
-                          "variant": "default",
-                          "children": [],
-                          "namespace": "Layout",
-                          "props": {
-                            "col": "5",
-                            "style": {
-                              "backgroundColor": "#ffffff"
-                            }
-                          }
-                        },
-                        {
-                          "type": "Column",
-                          "variant": "default",
-                          "children": [],
-                          "namespace": "Layout",
-                          "props": {
-                            "col": "5",
-                            "style": {
-                              "backgroundColor": "#ffffff"
-                            }
-                          }
-                        }
-                      ],
-                      "namespace": "Layout",
-                      "props": {
-                        "style": {
-                          "backgroundColor": "#ffffff"
-                        },
-                        "col": "3"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "type": "div",
+                  "type": "span",
                   "variant": "default",
                   "props": {},
-                  "children": [
-                    {
-                      "type": "Row",
-                      "variant": "default",
-                      "children": [
-                        {
-                          "type": "Column",
-                          "variant": "default",
-                          "children": [],
-                          "namespace": "Layout",
-                          "props": {
-                            "col": "1"
-                          }
-                        },
-                        {
-                          "type": "Column",
-                          "variant": "default",
-                          "children": [],
-                          "namespace": "Layout",
-                          "props": {
-                            "col": "1"
-                          }
-                        },
-                        {
-                          "type": "Column",
-                          "variant": "default",
-                          "children": [],
-                          "namespace": "Layout",
-                          "props": {
-                            "col": "1"
-                          }
-                        },
-                        {
-                          "type": "Column",
-                          "variant": "default",
-                          "children": [],
-                          "namespace": "Layout",
-                          "props": {
-                            "col": "9",
-                            "style": {
-                              "backgroundColor": "#977171"
-                            }
-                          }
-                        }
-                      ],
-                      "namespace": "Layout",
-                      "props": {
-                        "style": {
-                          "backgroundColor": "#ffffff",
-                          "height": "30px"
-                        },
-                        "col": "3"
-                      }
-                    }
-                  ]
-                },
+                  "children": [],
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "position": "absolute",
+                  "backgroundColor": "#e0cece",
+                  "height": "30px",
+                  "width": "3%",
+                  "right": "15%"
+                }
+              },
+              "children": [
                 {
-                  "type": "div",
+                  "type": "span",
                   "variant": "default",
-                  "props": {
-                    "style": {
-                      "display": "flex",
-                      "justifyContent": "center",
-                      "height": "30px",
-                      "alignItems": "center",
-                      "backgroundColor": "#ffffff",
-                      "borderRadius": "4px"
-                    }
-                  },
-                  "children": []
+                  "props": {},
+                  "children": [],
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "position": "absolute",
+                  "backgroundColor": "#e0cece",
+                  "height": "30px",
+                  "width": "3%",
+                  "right": "10%"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {},
+                  "children": [],
+                  "text": ""
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "position": "absolute",
+                  "backgroundColor": "#e0cece",
+                  "height": "30px",
+                  "width": "7%",
+                  "right": "0%"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {},
+                  "children": [],
+                  "text": ""
                 }
               ]
             }
