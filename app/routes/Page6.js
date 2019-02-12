@@ -18,233 +18,37 @@ class Page6 extends Component {
         <div
           style={{
             paddingTop: "50px",
-            paddingRight: "50px",
+            paddingRight: "7%",
             paddingBottom: "50px",
-            paddingLeft: "50px",
+            paddingLeft: "7%",
             backgroundColor: "#ffffff"
           }}
         >
           <div style={{ position: "relative" }}>
             <Row style={{ backgroundColor: "#ffffff", height: "40px" }}>
-              <Column col={2} style={{ backgroundColor: "#3d3939" }} />
-              <Column col={2} style={{ backgroundColor: "#ffffff" }} />
-              <Column col={2} style={{ backgroundColor: "#383636" }} />
-              <Column col={1} style={{ backgroundColor: "#ffffff" }} />
-              <Column col={2} style={{ backgroundColor: "#464040" }} />
+              <Column col={2} style={{ fontSize: "18px", fontWeight: 500 }}>
+                <span>Logo</span>
+              </Column>
+              <Column col={6} style={{ backgroundColor: "#ffffff" }} />
+              <Column col={1} style={{ backgroundColor: "#ffffff" }}>
+                <span>Work</span>
+              </Column>
+              <Column col={1} style={{ backgroundColor: "#ffffff" }}>
+                <span>Play</span>
+              </Column>
+              <Column col={1} style={{ backgroundColor: "#ffffff" }}>
+                <span>About</span>
+              </Column>
+              <Column col={1} style={{ backgroundColor: "#ffffff" }}>
+                <span>Resume</span>
+              </Column>
             </Row>
-            <Column style={{ height: "80px", backgroundColor: "#ffffff" }} />
             <div />
             <div>
               <Row style={{ height: "100%" }}>
-                <Column col={6}>
-                  <Row>
-                    <Column
-                      col={8}
-                      style={{
-                        backgroundColor: "#ffffff",
-                        height: "150px",
-                        position: "relative",
-                        paddingRight: "20px",
-                        paddingBottom: "10px"
-                      }}
-                    >
-                      <div
-                        style={{
-                          width: "100%",
-                          height: "100%",
-                          backgroundColor: "#555555",
-                          position: "relative"
-                        }}
-                      >
-                        <span
-                          style={{
-                            position: "absolute",
-                            left: "50%",
-                            transform: "translate(-50%, -50%)",
-                            top: "50%",
-                            backgroundColor: "#c76363",
-                            fontSize: "97px",
-                            textAlign: "center"
-                          }}
-                        >
-                          SURF
-                        </span>
-                      </div>
-                      <div
-                        style={{
-                          width: "100%",
-                          height: "100%",
-                          backgroundColor: "#ffffff"
-                        }}
-                      />
-                    </Column>
-                    <Column
-                      col={4}
-                      style={{
-                        backgroundColor: "#ffffff",
-                        paddingBottom: "10px",
-                        paddingRight: "15px"
-                      }}
-                    >
-                      <div
-                        style={{ height: "100%", backgroundColor: "#a82534" }}
-                      />
-                    </Column>
-                    <div />
-                    <Column
-                      col={8}
-                      style={{
-                        backgroundColor: "#ffffff",
-                        height: "100px",
-                        paddingRight: "20px",
-                        paddingTop: "10px"
-                      }}
-                    >
-                      <div
-                        style={{
-                          height: "100px",
-                          backgroundColor: "#4d4142",
-                          paddingTop: "5px"
-                        }}
-                      />
-                    </Column>
-                    <Column
-                      col={4}
-                      style={{
-                        backgroundColor: "#ffffff",
-                        height: "100px",
-                        paddingTop: "10px",
-                        paddingRight: "15px"
-                      }}
-                    >
-                      <div
-                        style={{ backgroundColor: "#585050", height: "100px" }}
-                      />
-                    </Column>
-                    <Column
-                      col={4}
-                      style={{
-                        height: "200px",
-                        paddingTop: "20px",
-                        backgroundColor: "#ffffff",
-                        paddingRight: "15px"
-                      }}
-                    >
-                      <div
-                        style={{ height: "200px", backgroundColor: "#b82e2e" }}
-                      />
-                    </Column>
-                    <Column
-                      col={4}
-                      style={{
-                        backgroundColor: "#ffffff",
-                        height: "200px",
-                        paddingLeft: "5px",
-                        paddingTop: "20px",
-                        paddingRight: "20px"
-                      }}
-                    >
-                      <div
-                        style={{ height: "200px", backgroundColor: "#b92626" }}
-                      />
-                    </Column>
-                    <Column
-                      col={4}
-                      style={{
-                        backgroundColor: "#ffffff",
-                        height: "200px",
-                        paddingTop: "20px",
-                        paddingRight: "15px"
-                      }}
-                    >
-                      <div
-                        style={{ height: "200px", backgroundColor: "#be3030" }}
-                      />
-                    </Column>
-                    <Column
-                      col={4}
-                      style={{ height: "80px", backgroundColor: "#ffffff" }}
-                    >
-                      <div
-                        style={{
-                          backgroundColor: "#ad9898",
-                          height: "80px",
-                          marginTop: "20px",
-                          marginRight: "15px"
-                        }}
-                      />
-                    </Column>
-                    <Column
-                      col={4}
-                      style={{
-                        height: "80px",
-                        paddingLeft: "5px",
-                        paddingTop: "20px",
-                        paddingRight: "20px",
-                        backgroundColor: "#ffffff"
-                      }}
-                    >
-                      <div
-                        style={{ height: "80px", backgroundColor: "#b1a3a3" }}
-                      />
-                    </Column>
-                    <Column
-                      col={4}
-                      style={{
-                        height: "80px",
-                        paddingTop: "20px",
-                        paddingRight: "15px",
-                        backgroundColor: "#ffffff"
-                      }}
-                    >
-                      <div
-                        style={{ height: "70px", backgroundColor: "#bbacac" }}
-                      />
-                    </Column>
-                  </Row>
-                </Column>
-                <Column col={1} style={{ backgroundColor: "#ffffff" }}>
-                  <Row />
-                </Column>
-                <Column
-                  col={5}
-                  style={{ backgroundColor: "rgba(155, 155, 155, 0.25)" }}
-                >
-                  <Row />
-                </Column>
+                <Column col={6} />
                 <div />
-                <Column
-                  col={6}
-                  style={{
-                    height: "300px",
-                    backgroundColor: "#ffffff",
-                    position: "relative"
-                  }}
-                >
-                  <div style={{ height: "100%" }} />
-                  <Row />
-                  <div
-                    style={{
-                      height: "60px",
-                      width: "60px",
-                      backgroundColor: "#bbb2b2",
-                      position: "absolute",
-                      right: "0px",
-                      bottom: "0px",
-                      marginRight: "15px"
-                    }}
-                  />
-                </Column>
                 <Column col={1} style={{ backgroundColor: "#ffffff" }} />
-                <Column
-                  col={5}
-                  style={{
-                    backgroundColor: "rgba(155, 155, 155, 0.25)",
-                    height: "300px"
-                  }}
-                >
-                  <Row />
-                </Column>
               </Row>
             </div>
           </div>

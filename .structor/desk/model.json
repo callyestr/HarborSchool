@@ -10,9 +10,9 @@
           "props": {
             "style": {
               "paddingTop": "50px",
-              "paddingRight": "50px",
+              "paddingRight": "7%",
               "paddingBottom": "50px",
-              "paddingLeft": "50px",
+              "paddingLeft": "10%",
               "backgroundColor": "#ffffff"
             }
           },
@@ -33,12 +33,21 @@
                     {
                       "type": "Column",
                       "variant": "default",
-                      "children": [],
+                      "children": [
+                        {
+                          "type": "span",
+                          "variant": "default",
+                          "props": {},
+                          "children": [],
+                          "text": "Logo"
+                        }
+                      ],
                       "namespace": "Layout",
                       "props": {
                         "col": 2,
                         "style": {
-                          "backgroundColor": "#3d3939"
+                          "fontSize": "18px",
+                          "fontWeight": 500
                         }
                       }
                     },
@@ -48,7 +57,7 @@
                       "children": [],
                       "namespace": "Layout",
                       "props": {
-                        "col": 2,
+                        "col": 6,
                         "style": {
                           "backgroundColor": "#ffffff"
                         }
@@ -57,19 +66,15 @@
                     {
                       "type": "Column",
                       "variant": "default",
-                      "children": [],
-                      "namespace": "Layout",
-                      "props": {
-                        "col": 2,
-                        "style": {
-                          "backgroundColor": "#383636"
+                      "children": [
+                        {
+                          "type": "span",
+                          "variant": "default",
+                          "props": {},
+                          "children": [],
+                          "text": "Work"
                         }
-                      }
-                    },
-                    {
-                      "type": "Column",
-                      "variant": "default",
-                      "children": [],
+                      ],
                       "namespace": "Layout",
                       "props": {
                         "col": 1,
@@ -81,12 +86,60 @@
                     {
                       "type": "Column",
                       "variant": "default",
-                      "children": [],
+                      "children": [
+                        {
+                          "type": "span",
+                          "variant": "default",
+                          "props": {},
+                          "children": [],
+                          "text": "Play"
+                        }
+                      ],
                       "namespace": "Layout",
                       "props": {
-                        "col": 2,
+                        "col": 1,
                         "style": {
-                          "backgroundColor": "#464040"
+                          "backgroundColor": "#ffffff"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "span",
+                          "variant": "default",
+                          "props": {},
+                          "children": [],
+                          "text": "About"
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 1,
+                        "style": {
+                          "backgroundColor": "#ffffff"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "span",
+                          "variant": "default",
+                          "props": {},
+                          "children": [],
+                          "text": "Resume"
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 1,
+                        "style": {
+                          "backgroundColor": "#ffffff"
                         }
                       }
                     }
@@ -96,18 +149,6 @@
                     "style": {
                       "backgroundColor": "#ffffff",
                       "height": "40px"
-                    }
-                  }
-                },
-                {
-                  "type": "Column",
-                  "variant": "default",
-                  "children": [],
-                  "namespace": "Layout",
-                  "props": {
-                    "style": {
-                      "height": "80px",
-                      "backgroundColor": "#ffffff"
                     }
                   }
                 },
@@ -129,367 +170,10 @@
                         {
                           "type": "Column",
                           "variant": "default",
-                          "children": [
-                            {
-                              "type": "Row",
-                              "variant": "default",
-                              "children": [
-                                {
-                                  "type": "Column",
-                                  "variant": "default",
-                                  "children": [
-                                    {
-                                      "type": "div",
-                                      "variant": "default",
-                                      "props": {
-                                        "style": {
-                                          "width": "100%",
-                                          "height": "100%",
-                                          "backgroundColor": "#555555",
-                                          "position": "relative"
-                                        }
-                                      },
-                                      "children": [
-                                        {
-                                          "type": "span",
-                                          "variant": "default",
-                                          "props": {
-                                            "style": {
-                                              "position": "absolute",
-                                              "left": "50%",
-                                              "transform": "translate(-50%, -50%)",
-                                              "top": "50%",
-                                              "backgroundColor": "#c76363",
-                                              "fontSize": "97px",
-                                              "textAlign": "center"
-                                            }
-                                          },
-                                          "children": [],
-                                          "text": "SURF"
-                                        }
-                                      ]
-                                    },
-                                    {
-                                      "type": "div",
-                                      "variant": "default",
-                                      "props": {
-                                        "style": {
-                                          "width": "100%",
-                                          "height": "100%",
-                                          "backgroundColor": "#ffffff"
-                                        }
-                                      },
-                                      "children": []
-                                    }
-                                  ],
-                                  "namespace": "Layout",
-                                  "props": {
-                                    "col": 8,
-                                    "style": {
-                                      "backgroundColor": "#ffffff",
-                                      "height": "150px",
-                                      "position": "relative",
-                                      "paddingRight": "20px",
-                                      "paddingBottom": "10px"
-                                    }
-                                  }
-                                },
-                                {
-                                  "type": "Column",
-                                  "variant": "default",
-                                  "children": [
-                                    {
-                                      "type": "div",
-                                      "variant": "default",
-                                      "props": {
-                                        "style": {
-                                          "height": "100%",
-                                          "backgroundColor": "#a82534"
-                                        }
-                                      },
-                                      "children": []
-                                    }
-                                  ],
-                                  "namespace": "Layout",
-                                  "props": {
-                                    "col": 4,
-                                    "style": {
-                                      "backgroundColor": "#ffffff",
-                                      "paddingBottom": "10px",
-                                      "paddingRight": "15px"
-                                    }
-                                  }
-                                },
-                                {
-                                  "type": "div",
-                                  "variant": "default",
-                                  "props": {},
-                                  "children": []
-                                },
-                                {
-                                  "type": "Column",
-                                  "variant": "default",
-                                  "children": [
-                                    {
-                                      "type": "div",
-                                      "variant": "default",
-                                      "props": {
-                                        "style": {
-                                          "height": "100px",
-                                          "backgroundColor": "#4d4142",
-                                          "paddingTop": "5px"
-                                        }
-                                      },
-                                      "children": []
-                                    }
-                                  ],
-                                  "namespace": "Layout",
-                                  "props": {
-                                    "col": 8,
-                                    "style": {
-                                      "backgroundColor": "#ffffff",
-                                      "height": "100px",
-                                      "paddingRight": "20px",
-                                      "paddingTop": "10px"
-                                    }
-                                  }
-                                },
-                                {
-                                  "type": "Column",
-                                  "variant": "default",
-                                  "children": [
-                                    {
-                                      "type": "div",
-                                      "variant": "default",
-                                      "props": {
-                                        "style": {
-                                          "backgroundColor": "#585050",
-                                          "height": "100px"
-                                        }
-                                      },
-                                      "children": []
-                                    }
-                                  ],
-                                  "namespace": "Layout",
-                                  "props": {
-                                    "col": 4,
-                                    "style": {
-                                      "backgroundColor": "#ffffff",
-                                      "height": "100px",
-                                      "paddingTop": "10px",
-                                      "paddingRight": "15px"
-                                    }
-                                  }
-                                },
-                                {
-                                  "type": "Column",
-                                  "variant": "default",
-                                  "children": [
-                                    {
-                                      "type": "div",
-                                      "variant": "default",
-                                      "props": {
-                                        "style": {
-                                          "height": "200px",
-                                          "backgroundColor": "#b82e2e"
-                                        }
-                                      },
-                                      "children": []
-                                    }
-                                  ],
-                                  "namespace": "Layout",
-                                  "props": {
-                                    "col": 4,
-                                    "style": {
-                                      "height": "200px",
-                                      "paddingTop": "20px",
-                                      "backgroundColor": "#ffffff",
-                                      "paddingRight": "15px"
-                                    }
-                                  }
-                                },
-                                {
-                                  "type": "Column",
-                                  "variant": "default",
-                                  "children": [
-                                    {
-                                      "type": "div",
-                                      "variant": "default",
-                                      "props": {
-                                        "style": {
-                                          "height": "200px",
-                                          "backgroundColor": "#b92626"
-                                        }
-                                      },
-                                      "children": []
-                                    }
-                                  ],
-                                  "namespace": "Layout",
-                                  "props": {
-                                    "col": 4,
-                                    "style": {
-                                      "backgroundColor": "#ffffff",
-                                      "height": "200px",
-                                      "paddingLeft": "5px",
-                                      "paddingTop": "20px",
-                                      "paddingRight": "20px"
-                                    }
-                                  }
-                                },
-                                {
-                                  "type": "Column",
-                                  "variant": "default",
-                                  "children": [
-                                    {
-                                      "type": "div",
-                                      "variant": "default",
-                                      "props": {
-                                        "style": {
-                                          "height": "200px",
-                                          "backgroundColor": "#be3030"
-                                        }
-                                      },
-                                      "children": []
-                                    }
-                                  ],
-                                  "namespace": "Layout",
-                                  "props": {
-                                    "col": 4,
-                                    "style": {
-                                      "backgroundColor": "#ffffff",
-                                      "height": "200px",
-                                      "paddingTop": "20px",
-                                      "paddingRight": "15px"
-                                    }
-                                  }
-                                },
-                                {
-                                  "type": "Column",
-                                  "variant": "default",
-                                  "children": [
-                                    {
-                                      "type": "div",
-                                      "variant": "default",
-                                      "props": {
-                                        "style": {
-                                          "backgroundColor": "#b8a2a2",
-                                          "height": "80px",
-                                          "marginTop": "20px",
-                                          "marginRight": "15px"
-                                        }
-                                      },
-                                      "children": []
-                                    }
-                                  ],
-                                  "namespace": "Layout",
-                                  "props": {
-                                    "col": 4,
-                                    "style": {
-                                      "height": "80px",
-                                      "backgroundColor": "#ffffff"
-                                    }
-                                  }
-                                },
-                                {
-                                  "type": "Column",
-                                  "variant": "default",
-                                  "children": [
-                                    {
-                                      "type": "div",
-                                      "variant": "default",
-                                      "props": {
-                                        "style": {
-                                          "height": "80px",
-                                          "backgroundColor": "#b1a3a3"
-                                        }
-                                      },
-                                      "children": []
-                                    }
-                                  ],
-                                  "namespace": "Layout",
-                                  "props": {
-                                    "col": 4,
-                                    "style": {
-                                      "height": "80px",
-                                      "paddingLeft": "5px",
-                                      "paddingTop": "20px",
-                                      "paddingRight": "20px",
-                                      "backgroundColor": "#ffffff"
-                                    }
-                                  }
-                                },
-                                {
-                                  "type": "Column",
-                                  "variant": "default",
-                                  "children": [
-                                    {
-                                      "type": "div",
-                                      "variant": "default",
-                                      "props": {
-                                        "style": {
-                                          "height": "70px",
-                                          "backgroundColor": "#bbacac"
-                                        }
-                                      },
-                                      "children": []
-                                    }
-                                  ],
-                                  "namespace": "Layout",
-                                  "props": {
-                                    "col": 4,
-                                    "style": {
-                                      "height": "80px",
-                                      "paddingTop": "20px",
-                                      "paddingRight": "15px",
-                                      "backgroundColor": "#ffffff"
-                                    }
-                                  }
-                                }
-                              ],
-                              "namespace": "Layout"
-                            }
-                          ],
+                          "children": [],
                           "namespace": "Layout",
                           "props": {
                             "col": 6
-                          }
-                        },
-                        {
-                          "type": "Column",
-                          "variant": "default",
-                          "children": [
-                            {
-                              "type": "Row",
-                              "variant": "default",
-                              "children": [],
-                              "namespace": "Layout"
-                            }
-                          ],
-                          "namespace": "Layout",
-                          "props": {
-                            "col": 1,
-                            "style": {
-                              "backgroundColor": "#ffffff"
-                            }
-                          }
-                        },
-                        {
-                          "type": "Column",
-                          "variant": "default",
-                          "children": [
-                            {
-                              "type": "Row",
-                              "variant": "default",
-                              "children": [],
-                              "namespace": "Layout"
-                            }
-                          ],
-                          "namespace": "Layout",
-                          "props": {
-                            "col": 5,
-                            "style": {
-                              "backgroundColor": "rgba(155, 155, 155, 0.25)"
-                            }
                           }
                         },
                         {
@@ -501,79 +185,12 @@
                         {
                           "type": "Column",
                           "variant": "default",
-                          "children": [
-                            {
-                              "type": "div",
-                              "variant": "default",
-                              "props": {
-                                "style": {
-                                  "height": "100%"
-                                }
-                              },
-                              "children": []
-                            },
-                            {
-                              "type": "Row",
-                              "variant": "default",
-                              "children": [],
-                              "namespace": "Layout"
-                            },
-                            {
-                              "type": "div",
-                              "variant": "default",
-                              "props": {
-                                "style": {
-                                  "height": "60px",
-                                  "width": "60px",
-                                  "backgroundColor": "#bbb2b2",
-                                  "position": "absolute",
-                                  "right": "0px",
-                                  "bottom": "0px",
-                                  "marginRight": "15px"
-                                }
-                              },
-                              "children": []
-                            }
-                          ],
-                          "namespace": "Layout",
-                          "props": {
-                            "col": 6,
-                            "style": {
-                              "height": "300px",
-                              "backgroundColor": "#ffffff",
-                              "position": "relative"
-                            }
-                          }
-                        },
-                        {
-                          "type": "Column",
-                          "variant": "default",
                           "children": [],
                           "namespace": "Layout",
                           "props": {
                             "col": 1,
                             "style": {
                               "backgroundColor": "#ffffff"
-                            }
-                          }
-                        },
-                        {
-                          "type": "Column",
-                          "variant": "default",
-                          "children": [
-                            {
-                              "type": "Row",
-                              "variant": "default",
-                              "children": [],
-                              "namespace": "Layout"
-                            }
-                          ],
-                          "namespace": "Layout",
-                          "props": {
-                            "col": 5,
-                            "style": {
-                              "backgroundColor": "rgba(155, 155, 155, 0.25)",
-                              "height": "300px"
                             }
                           }
                         }
