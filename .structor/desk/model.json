@@ -12,7 +12,7 @@
               "paddingTop": "50px",
               "paddingRight": "50px",
               "paddingBottom": "50px",
-              "paddingLeft": "20px",
+              "paddingLeft": "50px",
               "backgroundColor": "#ffffff"
             }
           },
@@ -38,7 +38,7 @@
                       "props": {
                         "col": 2,
                         "style": {
-                          "backgroundColor": "#918080"
+                          "backgroundColor": "#3d3939"
                         }
                       }
                     },
@@ -62,7 +62,7 @@
                       "props": {
                         "col": 2,
                         "style": {
-                          "backgroundColor": "#918080"
+                          "backgroundColor": "#383636"
                         }
                       }
                     },
@@ -86,7 +86,7 @@
                       "props": {
                         "col": 2,
                         "style": {
-                          "backgroundColor": "#918080"
+                          "backgroundColor": "#464040"
                         }
                       }
                     }
@@ -160,7 +160,8 @@
                                               "transform": "translate(-50%, -50%)",
                                               "top": "50%",
                                               "backgroundColor": "#c76363",
-                                              "fontSize": "97px"
+                                              "fontSize": "97px",
+                                              "textAlign": "center"
                                             }
                                           },
                                           "children": [],
@@ -203,7 +204,7 @@
                                       "props": {
                                         "style": {
                                           "height": "100%",
-                                          "backgroundColor": "#d0021b"
+                                          "backgroundColor": "#a82534"
                                         }
                                       },
                                       "children": []
@@ -235,7 +236,7 @@
                                       "props": {
                                         "style": {
                                           "height": "100px",
-                                          "backgroundColor": "#131313",
+                                          "backgroundColor": "#4d4142",
                                           "paddingTop": "5px"
                                         }
                                       },
@@ -262,7 +263,7 @@
                                       "variant": "default",
                                       "props": {
                                         "style": {
-                                          "backgroundColor": "#7e7e7e",
+                                          "backgroundColor": "#585050",
                                           "height": "100px"
                                         }
                                       },
@@ -371,7 +372,7 @@
                                       "variant": "default",
                                       "props": {
                                         "style": {
-                                          "backgroundColor": "#c5b5b5",
+                                          "backgroundColor": "#b8a2a2",
                                           "height": "80px",
                                           "marginTop": "20px",
                                           "marginRight": "15px"
@@ -502,6 +503,16 @@
                           "variant": "default",
                           "children": [
                             {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "height": "100%"
+                                }
+                              },
+                              "children": []
+                            },
+                            {
                               "type": "Row",
                               "variant": "default",
                               "children": [],
@@ -517,7 +528,8 @@
                                   "backgroundColor": "#bbb2b2",
                                   "position": "absolute",
                                   "right": "0px",
-                                  "bottom": "0px"
+                                  "bottom": "0px",
+                                  "marginRight": "15px"
                                 }
                               },
                               "children": []

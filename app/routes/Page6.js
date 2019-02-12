@@ -26,11 +26,11 @@ class Page6 extends Component {
         >
           <div style={{ position: "relative" }}>
             <Row style={{ backgroundColor: "#ffffff", height: "40px" }}>
-              <Column col={2} style={{ backgroundColor: "#918080" }} />
+              <Column col={2} style={{ backgroundColor: "#3d3939" }} />
               <Column col={2} style={{ backgroundColor: "#ffffff" }} />
-              <Column col={2} style={{ backgroundColor: "#918080" }} />
+              <Column col={2} style={{ backgroundColor: "#383636" }} />
               <Column col={1} style={{ backgroundColor: "#ffffff" }} />
-              <Column col={2} style={{ backgroundColor: "#918080" }} />
+              <Column col={2} style={{ backgroundColor: "#464040" }} />
             </Row>
             <Column style={{ height: "80px", backgroundColor: "#ffffff" }} />
             <div />
@@ -63,7 +63,8 @@ class Page6 extends Component {
                             transform: "translate(-50%, -50%)",
                             top: "50%",
                             backgroundColor: "#c76363",
-                            fontSize: "97px"
+                            fontSize: "97px",
+                            textAlign: "center"
                           }}
                         >
                           SURF
@@ -86,7 +87,7 @@ class Page6 extends Component {
                       }}
                     >
                       <div
-                        style={{ height: "100%", backgroundColor: "#d0021b" }}
+                        style={{ height: "100%", backgroundColor: "#a82534" }}
                       />
                     </Column>
                     <div />
@@ -102,7 +103,7 @@ class Page6 extends Component {
                       <div
                         style={{
                           height: "100px",
-                          backgroundColor: "#131313",
+                          backgroundColor: "#4d4142",
                           paddingTop: "5px"
                         }}
                       />
@@ -117,7 +118,7 @@ class Page6 extends Component {
                       }}
                     >
                       <div
-                        style={{ backgroundColor: "#7e7e7e", height: "100px" }}
+                        style={{ backgroundColor: "#585050", height: "100px" }}
                       />
                     </Column>
                     <Column
@@ -166,7 +167,7 @@ class Page6 extends Component {
                     >
                       <div
                         style={{
-                          backgroundColor: "#c5b5b5",
+                          backgroundColor: "#ad9898",
                           height: "80px",
                           marginTop: "20px",
                           marginRight: "15px"
@@ -220,6 +221,7 @@ class Page6 extends Component {
                     position: "relative"
                   }}
                 >
+                  <div style={{ height: "100%" }} />
                   <Row />
                   <div
                     style={{
@@ -228,7 +230,8 @@ class Page6 extends Component {
                       backgroundColor: "#bbb2b2",
                       position: "absolute",
                       right: "0px",
-                      bottom: "0px"
+                      bottom: "0px",
+                      marginRight: "15px"
                     }}
                   />
                 </Column>
