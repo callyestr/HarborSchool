@@ -22,7 +22,8 @@
               "variant": "default",
               "props": {
                 "style": {
-                  "position": "relative"
+                  "position": "relative",
+                  "fontFamily": "Karla"
                 }
               },
               "children": [
@@ -35,11 +36,24 @@
                       "variant": "default",
                       "children": [
                         {
-                          "type": "span",
+                          "type": "a",
                           "variant": "default",
-                          "props": {},
-                          "children": [],
-                          "text": "Logo"
+                          "props": {
+                            "href": "/work",
+                            "style": {
+                              "color": "#222222",
+                              "textDecoration": "none"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {},
+                              "children": [],
+                              "text": "Parteek Saran."
+                            }
+                          ]
                         }
                       ],
                       "namespace": "Layout",
@@ -57,7 +71,7 @@
                       "children": [],
                       "namespace": "Layout",
                       "props": {
-                        "col": 6,
+                        "col": 8,
                         "style": {
                           "backgroundColor": "#ffffff"
                         }
@@ -70,7 +84,12 @@
                         {
                           "type": "span",
                           "variant": "default",
-                          "props": {},
+                          "props": {
+                            "style": {
+                              "fontWeight": 800,
+                              "color": "#222222"
+                            }
+                          },
                           "children": [],
                           "text": "Work"
                         }
@@ -88,51 +107,28 @@
                       "variant": "default",
                       "children": [
                         {
-                          "type": "span",
+                          "type": "a",
                           "variant": "default",
-                          "props": {},
-                          "children": [],
-                          "text": "Play"
-                        }
-                      ],
-                      "namespace": "Layout",
-                      "props": {
-                        "col": 1,
-                        "style": {
-                          "backgroundColor": "#ffffff"
-                        }
-                      }
-                    },
-                    {
-                      "type": "Column",
-                      "variant": "default",
-                      "children": [
-                        {
-                          "type": "span",
-                          "variant": "default",
-                          "props": {},
-                          "children": [],
-                          "text": "About"
-                        }
-                      ],
-                      "namespace": "Layout",
-                      "props": {
-                        "col": 1,
-                        "style": {
-                          "backgroundColor": "#ffffff"
-                        }
-                      }
-                    },
-                    {
-                      "type": "Column",
-                      "variant": "default",
-                      "children": [
-                        {
-                          "type": "span",
-                          "variant": "default",
-                          "props": {},
-                          "children": [],
-                          "text": "Resume"
+                          "props": {
+                            "href": "/about",
+                            "style": {
+                              "textDecoration": "none"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "textDecoration": "none",
+                                  "color": "#222222"
+                                }
+                              },
+                              "children": [],
+                              "text": "About"
+                            }
+                          ]
                         }
                       ],
                       "namespace": "Layout",
@@ -151,58 +147,476 @@
                       "height": "40px"
                     }
                   }
-                },
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "height": "100px"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "height": "100px"
+                }
+              },
+              "children": [
                 {
-                  "type": "div",
+                  "type": "span",
                   "variant": "default",
-                  "props": {},
-                  "children": []
-                },
+                  "props": {
+                    "style": {
+                      "fontSize": "14em",
+                      "fontWeight": 700
+                    }
+                  },
+                  "children": [],
+                  "text": "?"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pageName": "Page40",
+      "pagePath": "/about",
+      "children": [
+        {
+          "type": "div",
+          "variant": "default",
+          "props": {
+            "style": {
+              "paddingTop": "50px",
+              "paddingRight": "7%",
+              "paddingBottom": "50px",
+              "paddingLeft": "10%",
+              "backgroundColor": "#ffffff"
+            }
+          },
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "position": "relative",
+                  "fontFamily": "Karla"
+                }
+              },
+              "children": [
                 {
-                  "type": "div",
+                  "type": "Row",
                   "variant": "default",
-                  "props": {},
                   "children": [
                     {
-                      "type": "Row",
+                      "type": "Column",
                       "variant": "default",
                       "children": [
                         {
-                          "type": "Column",
+                          "type": "a",
                           "variant": "default",
-                          "children": [],
-                          "namespace": "Layout",
                           "props": {
-                            "col": 6
-                          }
-                        },
-                        {
-                          "type": "div",
-                          "variant": "default",
-                          "props": {},
-                          "children": []
-                        },
-                        {
-                          "type": "Column",
-                          "variant": "default",
-                          "children": [],
-                          "namespace": "Layout",
-                          "props": {
-                            "col": 1,
+                            "href": "/work",
                             "style": {
-                              "backgroundColor": "#ffffff"
+                              "color": "#222222",
+                              "textDecoration": "none"
                             }
-                          }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {},
+                              "children": [],
+                              "text": "Parteek Saran."
+                            }
+                          ]
                         }
                       ],
                       "namespace": "Layout",
                       "props": {
+                        "col": 2,
                         "style": {
-                          "height": "100%"
+                          "fontSize": "18px",
+                          "fontWeight": 500
+                        }
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 8,
+                        "style": {
+                          "backgroundColor": "#ffffff"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "span",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "fontWeight": 800
+                            }
+                          },
+                          "children": [],
+                          "text": "Work"
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 1,
+                        "style": {
+                          "backgroundColor": "#ffffff"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "a",
+                          "variant": "default",
+                          "props": {
+                            "href": "#",
+                            "style": {
+                              "textDecoration": "none",
+                              "color": "#222222"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {},
+                              "children": [],
+                              "text": "About"
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 1,
+                        "style": {
+                          "backgroundColor": "#ffffff"
                         }
                       }
                     }
-                  ]
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "style": {
+                      "backgroundColor": "#ffffff",
+                      "height": "40px"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "height": "500px"
+                }
+              },
+              "children": [
+                {
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "img",
+                          "variant": "default",
+                          "props": {
+                            "src": "https://d1nu0gr0bkbcfc.cloudfront.net/images/about/me.jpg",
+                            "style": {
+                              "width": "276px",
+                              "height": "190px"
+                            }
+                          },
+                          "children": []
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 3,
+                        "style": {
+                          "marginRight": "90px",
+                          "marginTop": "45px"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "Row",
+                          "variant": "default",
+                          "children": [
+                            {
+                              "type": "Column",
+                              "variant": "default",
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "fontFamily": "Karla",
+                                      "fontSize": "50px"
+                                    }
+                                  },
+                                  "children": [],
+                                  "text": "About"
+                                }
+                              ],
+                              "namespace": "Layout",
+                              "props": {
+                                "col": 12
+                              }
+                            },
+                            {
+                              "type": "Column",
+                              "variant": "default",
+                              "children": [
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "height": "30px"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ],
+                              "namespace": "Layout",
+                              "props": {
+                                "col": 12
+                              }
+                            },
+                            {
+                              "type": "Column",
+                              "variant": "default",
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "fontFamily": "Karla, sans-serif",
+                                      "fontSize": "18",
+                                      "fontWeight": 300,
+                                      "lineHeight": "22px"
+                                    }
+                                  },
+                                  "children": [],
+                                  "text": "Parteek Saran is a designer living in San Francisco, CA. He also enjoys riding his bicycle and eating croissants. Just wants to make good things with good folks. Available to collaborate on porjects."
+                                }
+                              ],
+                              "namespace": "Layout",
+                              "props": {
+                                "col": 10
+                              }
+                            },
+                            {
+                              "type": "Column",
+                              "variant": "default",
+                              "children": [],
+                              "namespace": "Layout",
+                              "props": {
+                                "col": 2
+                              }
+                            }
+                          ],
+                          "namespace": "Layout"
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 3,
+                        "style": {
+                          "margin": "35px"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "Row",
+                          "variant": "default",
+                          "children": [
+                            {
+                              "type": "Column",
+                              "variant": "default",
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "fontFamily": "Karla, sans-serif",
+                                      "fontSize": "50px"
+                                    }
+                                  },
+                                  "children": [],
+                                  "text": "Contact"
+                                }
+                              ],
+                              "namespace": "Layout",
+                              "props": {
+                                "col": 12
+                              }
+                            },
+                            {
+                              "type": "Column",
+                              "variant": "default",
+                              "children": [
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "height": "30px"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ],
+                              "namespace": "Layout",
+                              "props": {
+                                "col": 12
+                              }
+                            },
+                            {
+                              "type": "Column",
+                              "variant": "default",
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "fontFamily": "Karla, sans-serif",
+                                      "fontSize": "18",
+                                      "fontWeight": 300,
+                                      "lineHeight": "22px"
+                                    }
+                                  },
+                                  "children": [],
+                                  "text": "Email:"
+                                },
+                                {
+                                  "type": "span",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "fontFamily": "Karla, sans-serif",
+                                      "fontSize": "18",
+                                      "fontWeight": 300,
+                                      "lineHeight": "22px"
+                                    }
+                                  },
+                                  "children": [],
+                                  "text": "parteek@teek.me"
+                                },
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "height": "30px"
+                                    }
+                                  },
+                                  "children": []
+                                },
+                                {
+                                  "type": "span",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "fontFamily": "Karla, sans-serif",
+                                      "fontSize": "18",
+                                      "fontWeight": 300,
+                                      "lineHeight": "22px"
+                                    }
+                                  },
+                                  "children": [],
+                                  "text": "Twitter: @teek_s"
+                                },
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "height": "30px"
+                                    }
+                                  },
+                                  "children": []
+                                },
+                                {
+                                  "type": "span",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "fontFamily": "Karla, sans-serif",
+                                      "fontSize": "18",
+                                      "fontWeight": 300,
+                                      "lineHeight": "22px"
+                                    }
+                                  },
+                                  "children": [],
+                                  "text": "Instagram: @parteek"
+                                }
+                              ],
+                              "namespace": "Layout",
+                              "props": {
+                                "col": 12
+                              }
+                            }
+                          ],
+                          "namespace": "Layout",
+                          "props": {}
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 3,
+                        "style": {
+                          "margin": "35px"
+                        }
+                      }
+                    }
+                  ],
+                  "namespace": "Layout"
                 }
               ]
             }

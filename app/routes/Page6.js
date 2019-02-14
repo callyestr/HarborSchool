@@ -20,37 +20,36 @@ class Page6 extends Component {
             paddingTop: "50px",
             paddingRight: "7%",
             paddingBottom: "50px",
-            paddingLeft: "7%",
+            paddingLeft: "10%",
             backgroundColor: "#ffffff"
           }}
         >
-          <div style={{ position: "relative" }}>
+          <div style={{ position: "relative", fontFamily: "Karla" }}>
             <Row style={{ backgroundColor: "#ffffff", height: "40px" }}>
               <Column col={2} style={{ fontSize: "18px", fontWeight: 500 }}>
-                <span>Logo</span>
+                <a
+                  href="/work"
+                  style={{ color: "#222222", textDecoration: "none" }}
+                >
+                  <span>Parteek Saran.</span>
+                </a>
               </Column>
-              <Column col={6} style={{ backgroundColor: "#ffffff" }} />
+              <Column col={8} style={{ backgroundColor: "#ffffff" }} />
               <Column col={1} style={{ backgroundColor: "#ffffff" }}>
-                <span>Work</span>
+                <span style={{ fontWeight: 800, color: "#222222" }}>Work</span>
               </Column>
               <Column col={1} style={{ backgroundColor: "#ffffff" }}>
-                <span>Play</span>
-              </Column>
-              <Column col={1} style={{ backgroundColor: "#ffffff" }}>
-                <span>About</span>
-              </Column>
-              <Column col={1} style={{ backgroundColor: "#ffffff" }}>
-                <span>Resume</span>
+                <a href="/about" style={{ textDecoration: "none" }}>
+                  <span style={{ textDecoration: "none", color: "#222222" }}>
+                    About
+                  </span>
+                </a>
               </Column>
             </Row>
-            <div />
-            <div>
-              <Row style={{ height: "100%" }}>
-                <Column col={6} />
-                <div />
-                <Column col={1} style={{ backgroundColor: "#ffffff" }} />
-              </Row>
-            </div>
+          </div>
+          <div style={{ height: "100px" }} />
+          <div style={{ height: "100px" }}>
+            <span style={{ fontSize: "14em", fontWeight: 700 }} />
           </div>
         </div>
 

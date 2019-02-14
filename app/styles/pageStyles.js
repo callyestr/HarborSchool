@@ -3,6 +3,7 @@ import { css } from "styled-components";
 const style = css`
   body {
   }
+  @import url("https://fonts.googleapis.com/css?family=Karla");
 
   @import url("https://fonts.googleapis.com/css?family=Oleo+Script:400,700");
   font-family: "Oleo Script", cursive;
