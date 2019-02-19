@@ -1,6 +1,17 @@
 import { css } from "styled-components";
 
 const style = css`
+  .target {
+    opacity: 0;
+    transition: 0.32s all ease-in;
+  }
+  .trigger:hover {
+    .target {
+      opacity: 1;
+      transition: 0.32s all ease-in;
+    }
+  }
+
   body {
   }
   @import url("https://fonts.googleapis.com/css?family=Karla");

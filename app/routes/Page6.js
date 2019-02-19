@@ -48,8 +48,293 @@ class Page6 extends Component {
             </Row>
           </div>
           <div style={{ height: "100px" }} />
-          <div style={{ height: "100px" }}>
-            <span style={{ fontSize: "14em", fontWeight: 700 }} />
+          <div style={{ marginBottom: "50px" }}>
+            <a
+              href="/GH2018"
+              style={{
+                textDecoration: "none",
+                color: "#000000",
+                display: "inline-block"
+              }}
+            >
+              <span
+                style={{
+                  fontSize: "50px",
+                  fontWeight: 400,
+                  display: "block",
+                  fontFamily: "Helvetica Neue",
+                  padding: "5px"
+                }}
+              >
+                Google Hardware
+              </span>
+              <span
+                style={{
+                  fontSize: "50px",
+                  fontWeight: 400,
+                  display: "block",
+                  fontFamily: "Helvetica Neue",
+                  padding: "5px"
+                }}
+              >
+                2018 Launch
+              </span>
+            </a>
+          </div>
+          <a
+            href="/Pixel2017"
+            style={{
+              color: "#000000",
+              textDecoration: "none",
+              display: "inline-block"
+            }}
+          >
+            <div>
+              <span
+                style={{
+                  fontSize: "50px",
+                  fontWeight: 400,
+                  display: "block",
+                  fontFamily: "Helvetica Neue",
+                  padding: "5px"
+                }}
+              >
+                Pixel 2017
+              </span>
+              <span
+                style={{
+                  fontSize: "50px",
+                  fontWeight: 400,
+                  display: "block",
+                  fontFamily: "Helvetica Neue",
+                  padding: "5px"
+                }}
+              >
+                Wallpapers
+              </span>
+            </div>
+          </a>
+          <div style={{ marginBottom: "50px", marginTop: "50px" }}>
+            <span
+              style={{
+                fontSize: "50px",
+                fontWeight: 400,
+                display: "block",
+                fontFamily: "Helvetica Neue",
+                padding: "5px"
+              }}
+            >
+              Google Hardware
+            </span>
+            <span
+              style={{
+                fontSize: "50px",
+                fontWeight: 400,
+                display: "block",
+                fontFamily: "Helvetica Neue",
+                padding: "5px"
+              }}
+            >
+              Lookbook
+            </span>
+          </div>
+          <div style={{ marginBottom: "50px" }}>
+            <span
+              style={{
+                fontSize: "50px",
+                fontWeight: 400,
+                display: "block",
+                fontFamily: "Helvetica Neue",
+                padding: "5px"
+              }}
+            >
+              Google Hardware
+            </span>
+            <span
+              style={{
+                fontSize: "50px",
+                fontWeight: 400,
+                display: "block",
+                fontFamily: "Helvetica Neue",
+                padding: "5px"
+              }}
+            >
+              Brand identity
+            </span>
+            <span
+              style={{
+                fontSize: "15px",
+                fontWeight: 400,
+                display: "block",
+                fontFamily: "Helvetica Neue",
+                padding: "5px",
+                marginTop: "20px"
+              }}
+            >
+              Coming soon
+            </span>
+          </div>
+          <div style={{ marginBottom: "50px" }}>
+            <span
+              style={{
+                fontSize: "50px",
+                fontWeight: 400,
+                display: "block",
+                fontFamily: "Helvetica Neue",
+                padding: "5px"
+              }}
+            >
+              Pixelbook Lifestyle
+            </span>
+            <span
+              style={{
+                fontSize: "50px",
+                fontWeight: 400,
+                display: "block",
+                fontFamily: "Helvetica Neue",
+                padding: "5px"
+              }}
+            >
+              Photography
+            </span>
+            <span
+              style={{
+                fontSize: "15px",
+                fontWeight: 400,
+                display: "block",
+                fontFamily: "Helvetica Neue",
+                padding: "5px",
+                marginTop: "20px"
+              }}
+            >
+              Coming soon
+            </span>
+          </div>
+          <div style={{ marginBottom: "50px" }}>
+            <span
+              style={{
+                fontSize: "50px",
+                fontWeight: 400,
+                display: "inline-block",
+                fontFamily: "Helvetica Neue",
+                padding: "5px"
+              }}
+            >
+              True Ventures
+            </span>
+            <span
+              style={{
+                fontSize: "15px",
+                fontWeight: 400,
+                display: "inline",
+                fontFamily: "Helvetica Neue",
+                padding: "5px",
+                marginTop: "20px",
+                paddingBottom: "5px",
+                position: "relative",
+                bottom: "27px",
+                left: "-7px"
+              }}
+            >
+              Coming soon
+            </span>
+          </div>
+          <div style={{ marginBottom: "50px" }}>
+            <span
+              style={{
+                fontSize: "50px",
+                fontWeight: 400,
+                display: "inline-block",
+                fontFamily: "Helvetica Neue",
+                padding: "5px"
+              }}
+            >
+              Chrome OS
+            </span>
+            <span
+              style={{
+                fontSize: "15px",
+                fontWeight: 400,
+                display: "inline",
+                fontFamily: "Helvetica Neue",
+                padding: "5px",
+                marginTop: "20px",
+                paddingBottom: "5px",
+                position: "relative",
+                bottom: "27px",
+                left: "-7px"
+              }}
+            >
+              Coming soon
+            </span>
+          </div>
+          <div style={{ marginBottom: "50px" }}>
+            <span
+              style={{
+                fontSize: "50px",
+                fontWeight: 400,
+                display: "inline-block",
+                fontFamily: "Helvetica Neue",
+                padding: "5px"
+              }}
+            >
+              Material Design
+            </span>
+            <span
+              style={{
+                fontSize: "15px",
+                fontWeight: 400,
+                display: "inline",
+                fontFamily: "Helvetica Neue",
+                padding: "5px",
+                marginTop: "20px",
+                paddingBottom: "5px",
+                position: "relative",
+                bottom: "27px",
+                left: "-7px"
+              }}
+            >
+              Coming soon
+            </span>
+          </div>
+          <div style={{ marginBottom: "50px" }}>
+            <span
+              style={{
+                fontSize: "50px",
+                fontWeight: 400,
+                display: "inline-block",
+                fontFamily: "Helvetica Neue",
+                padding: "5px"
+              }}
+            >
+              Form
+            </span>
+          </div>
+          <div style={{ marginBottom: "50px" }}>
+            <span
+              style={{
+                fontSize: "50px",
+                fontWeight: 400,
+                display: "inline-block",
+                fontFamily: "Helvetica Neue",
+                padding: "5px"
+              }}
+            >
+              Lady Gaga ARTPOP
+            </span>
+          </div>
+          <div style={{ marginBottom: "50px" }}>
+            <span
+              style={{
+                fontSize: "50px",
+                fontWeight: 400,
+                display: "inline-block",
+                fontFamily: "Helvetica Neue",
+                padding: "5px"
+              }}
+            >
+              Broooo App - iOSDevCamp
+            </span>
           </div>
         </div>
 

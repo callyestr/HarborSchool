@@ -165,7 +165,114 @@
               "variant": "default",
               "props": {
                 "style": {
-                  "height": "100px"
+                  "marginBottom": "50px"
+                }
+              },
+              "children": [
+                {
+                  "type": "a",
+                  "variant": "default",
+                  "props": {
+                    "href": "/GH2018",
+                    "style": {
+                      "textDecoration": "none",
+                      "color": "#000000",
+                      "display": "inline-block"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "fontSize": "50px",
+                          "fontWeight": 400,
+                          "display": "block",
+                          "fontFamily": "Helvetica Neue",
+                          "padding": "5px"
+                        }
+                      },
+                      "children": [],
+                      "text": "Google Hardware"
+                    },
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "fontSize": "50px",
+                          "fontWeight": 400,
+                          "display": "block",
+                          "fontFamily": "Helvetica Neue",
+                          "padding": "5px"
+                        }
+                      },
+                      "children": [],
+                      "text": "2018 Launch"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "a",
+              "variant": "default",
+              "props": {
+                "href": "/Pixel2017",
+                "style": {
+                  "color": "#000000",
+                  "textDecoration": "none",
+                  "display": "inline-block"
+                }
+              },
+              "children": [
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "fontSize": "50px",
+                          "fontWeight": 400,
+                          "display": "block",
+                          "fontFamily": "Helvetica Neue",
+                          "padding": "5px"
+                        }
+                      },
+                      "children": [],
+                      "text": "Pixel 2017"
+                    },
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "fontSize": "50px",
+                          "fontWeight": 400,
+                          "display": "block",
+                          "fontFamily": "Helvetica Neue",
+                          "padding": "5px"
+                        }
+                      },
+                      "children": [],
+                      "text": "Wallpapers"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "marginBottom": "50px",
+                  "marginTop": "50px"
                 }
               },
               "children": [
@@ -174,12 +281,360 @@
                   "variant": "default",
                   "props": {
                     "style": {
-                      "fontSize": "14em",
-                      "fontWeight": 700
+                      "fontSize": "50px",
+                      "fontWeight": 400,
+                      "display": "block",
+                      "fontFamily": "Helvetica Neue",
+                      "padding": "5px"
                     }
                   },
                   "children": [],
-                  "text": "?"
+                  "text": "Google Hardware"
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontSize": "50px",
+                      "fontWeight": 400,
+                      "display": "block",
+                      "fontFamily": "Helvetica Neue",
+                      "padding": "5px"
+                    }
+                  },
+                  "children": [],
+                  "text": "Lookbook"
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "marginBottom": "50px"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontSize": "50px",
+                      "fontWeight": 400,
+                      "display": "block",
+                      "fontFamily": "Helvetica Neue",
+                      "padding": "5px"
+                    }
+                  },
+                  "children": [],
+                  "text": "Google Hardware"
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontSize": "50px",
+                      "fontWeight": 400,
+                      "display": "block",
+                      "fontFamily": "Helvetica Neue",
+                      "padding": "5px"
+                    }
+                  },
+                  "children": [],
+                  "text": "Brand identity"
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontSize": "15px",
+                      "fontWeight": 400,
+                      "display": "block",
+                      "fontFamily": "Helvetica Neue",
+                      "padding": "5px",
+                      "marginTop": "20px"
+                    }
+                  },
+                  "children": [],
+                  "text": "Coming soon"
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "marginBottom": "50px"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontSize": "50px",
+                      "fontWeight": 400,
+                      "display": "block",
+                      "fontFamily": "Helvetica Neue",
+                      "padding": "5px"
+                    }
+                  },
+                  "children": [],
+                  "text": "Pixelbook Lifestyle"
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontSize": "50px",
+                      "fontWeight": 400,
+                      "display": "block",
+                      "fontFamily": "Helvetica Neue",
+                      "padding": "5px"
+                    }
+                  },
+                  "children": [],
+                  "text": "Photography"
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontSize": "15px",
+                      "fontWeight": 400,
+                      "display": "block",
+                      "fontFamily": "Helvetica Neue",
+                      "padding": "5px",
+                      "marginTop": "20px"
+                    }
+                  },
+                  "children": [],
+                  "text": "Coming soon"
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "marginBottom": "50px"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontSize": "50px",
+                      "fontWeight": 400,
+                      "display": "inline-block",
+                      "fontFamily": "Helvetica Neue",
+                      "padding": "5px"
+                    }
+                  },
+                  "children": [],
+                  "text": "True Ventures"
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontSize": "15px",
+                      "fontWeight": 400,
+                      "display": "inline",
+                      "fontFamily": "Helvetica Neue",
+                      "padding": "5px",
+                      "marginTop": "20px",
+                      "paddingBottom": "5px",
+                      "position": "relative",
+                      "bottom": "27px",
+                      "left": "-7px"
+                    }
+                  },
+                  "children": [],
+                  "text": "Coming soon"
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "marginBottom": "50px"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontSize": "50px",
+                      "fontWeight": 400,
+                      "display": "inline-block",
+                      "fontFamily": "Helvetica Neue",
+                      "padding": "5px"
+                    }
+                  },
+                  "children": [],
+                  "text": "Chrome OS"
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontSize": "15px",
+                      "fontWeight": 400,
+                      "display": "inline",
+                      "fontFamily": "Helvetica Neue",
+                      "padding": "5px",
+                      "marginTop": "20px",
+                      "paddingBottom": "5px",
+                      "position": "relative",
+                      "bottom": "27px",
+                      "left": "-7px"
+                    }
+                  },
+                  "children": [],
+                  "text": "Coming soon"
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "marginBottom": "50px"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontSize": "50px",
+                      "fontWeight": 400,
+                      "display": "inline-block",
+                      "fontFamily": "Helvetica Neue",
+                      "padding": "5px"
+                    }
+                  },
+                  "children": [],
+                  "text": "Material Design"
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontSize": "15px",
+                      "fontWeight": 400,
+                      "display": "inline",
+                      "fontFamily": "Helvetica Neue",
+                      "padding": "5px",
+                      "marginTop": "20px",
+                      "paddingBottom": "5px",
+                      "position": "relative",
+                      "bottom": "27px",
+                      "left": "-7px"
+                    }
+                  },
+                  "children": [],
+                  "text": "Coming soon"
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "marginBottom": "50px"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontSize": "50px",
+                      "fontWeight": 400,
+                      "display": "inline-block",
+                      "fontFamily": "Helvetica Neue",
+                      "padding": "5px"
+                    }
+                  },
+                  "children": [],
+                  "text": "Form"
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "marginBottom": "50px"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontSize": "50px",
+                      "fontWeight": 400,
+                      "display": "inline-block",
+                      "fontFamily": "Helvetica Neue",
+                      "padding": "5px"
+                    }
+                  },
+                  "children": [],
+                  "text": "Lady Gaga ARTPOP"
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "marginBottom": "50px"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontSize": "50px",
+                      "fontWeight": 400,
+                      "display": "inline-block",
+                      "fontFamily": "Helvetica Neue",
+                      "padding": "5px"
+                    }
+                  },
+                  "children": [],
+                  "text": "Broooo App - iOSDevCamp"
                 }
               ]
             }
@@ -617,6 +1072,1410 @@
                     }
                   ],
                   "namespace": "Layout"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pageName": "Page452",
+      "pagePath": "/GH2018",
+      "children": [
+        {
+          "type": "div",
+          "variant": "default",
+          "props": {
+            "style": {
+              "paddingTop": "50px",
+              "paddingRight": "7%",
+              "paddingBottom": "50px",
+              "paddingLeft": "10%",
+              "backgroundColor": "#ffffff"
+            }
+          },
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "position": "relative",
+                  "fontFamily": "Karla"
+                }
+              },
+              "children": [
+                {
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "a",
+                          "variant": "default",
+                          "props": {
+                            "href": "/work",
+                            "style": {
+                              "color": "#222222",
+                              "textDecoration": "none"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {},
+                              "children": [],
+                              "text": "Parteek Saran."
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 2,
+                        "style": {
+                          "fontSize": "18px",
+                          "fontWeight": 500
+                        }
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 8,
+                        "style": {
+                          "backgroundColor": "#ffffff"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "span",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "fontWeight": 800,
+                              "color": "#222222"
+                            }
+                          },
+                          "children": [],
+                          "text": "Work"
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 1,
+                        "style": {
+                          "backgroundColor": "#ffffff"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "a",
+                          "variant": "default",
+                          "props": {
+                            "href": "/about",
+                            "style": {
+                              "textDecoration": "none"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "textDecoration": "none",
+                                  "color": "#222222"
+                                }
+                              },
+                              "children": [],
+                              "text": "About"
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 1,
+                        "style": {
+                          "backgroundColor": "#ffffff"
+                        }
+                      }
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "style": {
+                      "backgroundColor": "#ffffff",
+                      "height": "40px"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "div",
+          "variant": "default",
+          "props": {
+            "style": {
+              "paddingTop": "50px",
+              "paddingRight": "7%",
+              "paddingBottom": "50px",
+              "paddingLeft": "10%",
+              "backgroundColor": "#ffffff",
+              "fontSize": "36px",
+              "fontFamily": "HelveticaNeue"
+            }
+          },
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "marginBottom": "50px"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontSize": "140px",
+                      "fontWeight": 700,
+                      "display": "block",
+                      "fontFamily": "Helvetica Neue",
+                      "padding": "5px",
+                      "paddingBottom": "45px",
+                      "color": "#222222"
+                    }
+                  },
+                  "children": [],
+                  "text": "Google"
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontSize": "140px",
+                      "fontWeight": 700,
+                      "display": "block",
+                      "fontFamily": "Helvetica Neue",
+                      "padding": "5px",
+                      "paddingBottom": "45px",
+                      "color": "#222222"
+                    }
+                  },
+                  "children": [],
+                  "text": "Hardware 2018"
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontSize": "140px",
+                      "fontWeight": 700,
+                      "display": "block",
+                      "fontFamily": "Helvetica Neue",
+                      "padding": "5px",
+                      "paddingBottom": "45px",
+                      "color": "#222222"
+                    }
+                  },
+                  "children": [],
+                  "text": "Launch"
+                }
+              ]
+            },
+            {
+              "type": "Row",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "Column",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "fontWeight": 400,
+                          "fontFamily": "HelveticaNeue",
+                          "color": "#222222",
+                          "fontSize": "18px",
+                          "lineHeight": "23px"
+                        }
+                      },
+                      "children": [],
+                      "text": "Worked with design team to develop the story and art direction of the product reveals for the Google Hardware 2018 launch. Team: Philip Battin, Curtis Flanagan, Nathan Allen, Parteek Saran. 3D Production and Animation Kuhl&Han."
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "col": 5
+                  }
+                }
+              ],
+              "namespace": "Layout"
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "height": "100px"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {},
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#222222"
+                    }
+                  },
+                  "children": [],
+                  "text": "Pixel 3 Product Reveal"
+                },
+                {
+                  "type": "video",
+                  "variant": "default",
+                  "props": {
+                    "autoPlay": true,
+                    "loop": true,
+                    "muted": false,
+                    "style": {
+                      "width": "100%",
+                      "marginTop": "20px"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "source",
+                      "props": {
+                        "src": "http://d1nu0gr0bkbcfc.cloudfront.net/images/hardwarelaunch2018/Pixel.mp4",
+                        "type": "video/mp4"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "height": "170px"
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {},
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#222222"
+                    }
+                  },
+                  "children": [],
+                  "text": "Google Home Hub Product Reveal"
+                },
+                {
+                  "type": "video",
+                  "variant": "default",
+                  "props": {
+                    "autoPlay": true,
+                    "loop": true,
+                    "muted": false,
+                    "style": {
+                      "width": "100%",
+                      "marginTop": "20px"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "source",
+                      "props": {
+                        "src": "http://d1nu0gr0bkbcfc.cloudfront.net/images/hardwarelaunch2018/Home.mp4",
+                        "type": "video/mp4"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "height": "170px"
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {},
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#222222"
+                    }
+                  },
+                  "children": [],
+                  "text": "Google Slate Product Reveal"
+                },
+                {
+                  "type": "video",
+                  "variant": "default",
+                  "props": {
+                    "autoPlay": true,
+                    "loop": true,
+                    "muted": false,
+                    "style": {
+                      "width": "100%",
+                      "marginTop": "20px"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "source",
+                      "props": {
+                        "src": "http://d1nu0gr0bkbcfc.cloudfront.net/images/hardwarelaunch2018/Slate.mp4",
+                        "type": "video/mp4"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "height": "170px"
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {},
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "color": "#222222"
+                    }
+                  },
+                  "children": [],
+                  "text": "Family Product Reveal"
+                },
+                {
+                  "type": "video",
+                  "variant": "default",
+                  "props": {
+                    "autoPlay": true,
+                    "loop": true,
+                    "muted": false,
+                    "style": {
+                      "width": "100%",
+                      "marginTop": "20px"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "source",
+                      "props": {
+                        "src": "http://d1nu0gr0bkbcfc.cloudfront.net/images/hardwarelaunch2018/Family.mp4",
+                        "type": "video/mp4"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pageName": "Page352",
+      "pagePath": "/Pixel2017",
+      "children": [
+        {
+          "type": "div",
+          "variant": "default",
+          "props": {
+            "style": {
+              "paddingTop": "50px",
+              "paddingRight": "7%",
+              "paddingBottom": "50px",
+              "paddingLeft": "10%",
+              "backgroundColor": "#ffffff"
+            }
+          },
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "position": "relative",
+                  "fontFamily": "Karla"
+                }
+              },
+              "children": [
+                {
+                  "type": "Row",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "a",
+                          "variant": "default",
+                          "props": {
+                            "href": "/work",
+                            "style": {
+                              "color": "#222222",
+                              "textDecoration": "none"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {},
+                              "children": [],
+                              "text": "Parteek Saran."
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 2,
+                        "style": {
+                          "fontSize": "18px",
+                          "fontWeight": 500
+                        }
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 8,
+                        "style": {
+                          "backgroundColor": "#ffffff"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "span",
+                          "variant": "default",
+                          "props": {
+                            "style": {
+                              "fontWeight": 800,
+                              "color": "#222222"
+                            }
+                          },
+                          "children": [],
+                          "text": "Work"
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 1,
+                        "style": {
+                          "backgroundColor": "#ffffff"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Column",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "a",
+                          "variant": "default",
+                          "props": {
+                            "href": "/about",
+                            "style": {
+                              "textDecoration": "none"
+                            }
+                          },
+                          "children": [
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "textDecoration": "none",
+                                  "color": "#222222"
+                                }
+                              },
+                              "children": [],
+                              "text": "About"
+                            }
+                          ]
+                        }
+                      ],
+                      "namespace": "Layout",
+                      "props": {
+                        "col": 1,
+                        "style": {
+                          "backgroundColor": "#ffffff"
+                        }
+                      }
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "style": {
+                      "backgroundColor": "#ffffff",
+                      "height": "40px"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "div",
+          "variant": "default",
+          "props": {
+            "style": {
+              "paddingTop": "50px",
+              "paddingRight": "7%",
+              "paddingBottom": "50px",
+              "paddingLeft": "10%",
+              "backgroundColor": "#ffffff",
+              "fontSize": "36px",
+              "fontFamily": "HelveticaNeue",
+              "width": "100%"
+            }
+          },
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "marginBottom": "50px"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontSize": "140px",
+                      "fontWeight": 700,
+                      "display": "block",
+                      "fontFamily": "Helvetica Neue",
+                      "padding": "5px",
+                      "paddingBottom": "45px",
+                      "color": "#222222"
+                    }
+                  },
+                  "children": [],
+                  "text": "Pixel 2017 Wallpapers"
+                }
+              ]
+            },
+            {
+              "type": "Row",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "Column",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "fontWeight": 400,
+                          "fontFamily": "Karla",
+                          "color": "#222222",
+                          "fontSize": "18px",
+                          "lineHeight": "10px"
+                        }
+                      },
+                      "children": [],
+                      "text": "I had the pleasure of being commissioned to create a set of wallpapers that are included with the 2017 Google Pixel devices, Pixel 2 and Pixel 2 XL."
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "col": 5,
+                    "style": {
+                      "lineHeight": "23px"
+                    }
+                  }
+                },
+                {
+                  "type": "Column",
+                  "variant": "default",
+                  "children": [],
+                  "namespace": "Layout",
+                  "props": {
+                    "col": 7,
+                    "style": {
+                      "lineHeight": "23px"
+                    }
+                  }
+                },
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "height": "112px"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "Column",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "fontWeight": 400,
+                          "fontFamily": "Karla",
+                          "color": "#222222",
+                          "fontSize": "18px",
+                          "lineHeight": "10px"
+                        }
+                      },
+                      "children": [],
+                      "text": "This is a collection of 3D rendered wallpapers that bring focus to the simple objects we are surrounded with. By Parteek Saran."
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "col": 5,
+                    "style": {
+                      "lineHeight": "23px"
+                    }
+                  }
+                }
+              ],
+              "namespace": "Layout"
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "height": "100px"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "img",
+              "variant": "default",
+              "props": {
+                "src": "http://teek.me/static/images/wallpapers/group.png",
+                "style": {
+                  "width": "100%"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "height": "100px"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "img",
+              "variant": "default",
+              "props": {
+                "src": "http://d1nu0gr0bkbcfc.cloudfront.net/images/wallpapers/rooms.png",
+                "style": {
+                  "width": "100%"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "height": "70px"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "img",
+              "variant": "default",
+              "props": {
+                "src": "http://d1nu0gr0bkbcfc.cloudfront.net/images/wallpapers/Dioramas.png",
+                "style": {
+                  "width": "100%"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "height": "70px"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "img",
+              "variant": "default",
+              "props": {
+                "src": "http://d1nu0gr0bkbcfc.cloudfront.net/images/wallpapers/Sports.png",
+                "style": {
+                  "width": "100%"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "height": "70px"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "img",
+              "variant": "default",
+              "props": {
+                "src": "http://d1nu0gr0bkbcfc.cloudfront.net/images/wallpapers/PowerButton.png",
+                "style": {
+                  "height": "30%",
+                  "width": "45%",
+                  "marginLeft": "150px"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "height": "70px"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "img",
+              "variant": "default",
+              "props": {
+                "src": "http://d1nu0gr0bkbcfc.cloudfront.net/images/wallpapers/Breakdown.png",
+                "style": {
+                  "width": "45%",
+                  "marginLeft": "45%"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "height": "100px"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {},
+              "children": []
+            },
+            {
+              "type": "Row",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "Column",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "fontWeight": 400,
+                          "fontFamily": "Karla",
+                          "color": "#222222",
+                          "fontSize": "50px",
+                          "lineHeight": "10px",
+                          "display": "block",
+                          "marginBottom": "40px"
+                        }
+                      },
+                      "children": [],
+                      "text": "In the shadows"
+                    },
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "fontWeight": 400,
+                          "fontFamily": "Karla",
+                          "color": "#222222",
+                          "fontSize": "18px",
+                          "lineHeight": "10px"
+                        }
+                      },
+                      "children": [],
+                      "text": "by Nicholas Alan Cope"
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "col": 5,
+                    "style": {
+                      "lineHeight": "23px"
+                    }
+                  }
+                },
+                {
+                  "type": "Column",
+                  "variant": "default",
+                  "children": [],
+                  "namespace": "Layout",
+                  "props": {
+                    "col": 7,
+                    "style": {
+                      "lineHeight": "23px"
+                    }
+                  }
+                },
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "height": "106px"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "Column",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "fontWeight": 400,
+                          "fontFamily": "Karla",
+                          "color": "#222222",
+                          "fontSize": "18px",
+                          "lineHeight": "10px"
+                        }
+                      },
+                      "children": [],
+                      "text": "In the shadows is another wallpaper collection included with the 2017 Pixel phones. We collaborated with artist and photographer Nicholas Alan Cope to photograph an elegant set of wallpapers capturing the beauty of how shadows play with forms and surfaces. Worked with a talented team helping out with art direction. Team: Eunyoung Park, Emily Blank, Parteek Saran."
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "col": 5,
+                    "style": {
+                      "lineHeight": "23px"
+                    }
+                  }
+                },
+                {
+                  "type": "Column",
+                  "variant": "default",
+                  "children": [],
+                  "namespace": "Layout",
+                  "props": {
+                    "col": 7,
+                    "style": {
+                      "lineHeight": "23px"
+                    }
+                  }
+                }
+              ],
+              "namespace": "Layout"
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "height": "100px"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "img",
+              "variant": "default",
+              "props": {
+                "src": "http://d1nu0gr0bkbcfc.cloudfront.net/images/wallpapers/nicholasrow.png",
+                "style": {
+                  "width": "100%"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "height": "100px"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "img",
+              "variant": "default",
+              "props": {
+                "src": "http://d1nu0gr0bkbcfc.cloudfront.net/images/wallpapers/NicholasRow1.png",
+                "style": {
+                  "width": "100%"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "height": "100px"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "img",
+              "variant": "default",
+              "props": {
+                "src": "http://d1nu0gr0bkbcfc.cloudfront.net/images/wallpapers/NicholasRow2.png",
+                "style": {
+                  "width": "100%"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "height": "100px"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "img",
+              "variant": "default",
+              "props": {
+                "src": "http://d1nu0gr0bkbcfc.cloudfront.net/images/wallpapers/NicholasRow3.png",
+                "style": {
+                  "width": "100%"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "height": "100px"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "Row",
+              "variant": "default",
+              "children": [
+                {
+                  "type": "Column",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "fontWeight": 400,
+                          "fontFamily": "Karla",
+                          "color": "#222222",
+                          "fontSize": "50px",
+                          "lineHeight": "10px",
+                          "display": "block",
+                          "marginBottom": "40px"
+                        }
+                      },
+                      "children": [],
+                      "text": "Come and Play"
+                    },
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "fontWeight": 400,
+                          "fontFamily": "Karla",
+                          "color": "#222222",
+                          "fontSize": "18px",
+                          "lineHeight": "10px"
+                        }
+                      },
+                      "children": [],
+                      "text": "by Leta Sobierajski and Wade Jeffree."
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "col": 5,
+                    "style": {
+                      "lineHeight": "23px"
+                    }
+                  }
+                },
+                {
+                  "type": "Column",
+                  "variant": "default",
+                  "children": [],
+                  "namespace": "Layout",
+                  "props": {
+                    "col": 7,
+                    "style": {
+                      "lineHeight": "23px"
+                    }
+                  }
+                },
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "height": "106px"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "type": "Column",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "fontWeight": 400,
+                          "fontFamily": "Karla",
+                          "color": "#222222",
+                          "fontSize": "18px",
+                          "lineHeight": "10px"
+                        }
+                      },
+                      "children": [],
+                      "text": "We collaborated with Leta Sobierajski and Wade Jeffree to create a set of playful and energetic wallpapers fot the 2017 Pixel devices. Our team worked with them on defining the creative direction."
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "col": 5,
+                    "style": {
+                      "lineHeight": "23px"
+                    }
+                  }
+                },
+                {
+                  "type": "Column",
+                  "variant": "default",
+                  "children": [],
+                  "namespace": "Layout",
+                  "props": {
+                    "col": 7,
+                    "style": {
+                      "lineHeight": "23px"
+                    }
+                  }
+                },
+                {
+                  "type": "Column",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "fontWeight": 400,
+                          "fontFamily": "Karla",
+                          "color": "#222222",
+                          "fontSize": "18px",
+                          "lineHeight": "10px"
+                        }
+                      },
+                      "children": [],
+                      "text": "Team: Eunyoung Park, Emily Blank, Parteek Saran."
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "col": 5,
+                    "style": {
+                      "lineHeight": "23px"
+                    }
+                  }
+                },
+                {
+                  "type": "Column",
+                  "variant": "default",
+                  "children": [],
+                  "namespace": "Layout",
+                  "props": {
+                    "col": 7,
+                    "style": {
+                      "lineHeight": "23px"
+                    }
+                  }
+                }
+              ],
+              "namespace": "Layout"
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "height": "100px"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "img",
+              "variant": "default",
+              "props": {
+                "src": "http://d1nu0gr0bkbcfc.cloudfront.net/images/wallpapers/ikkorow.png",
+                "style": {
+                  "width": "100%"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "height": "100px"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "img",
+              "variant": "default",
+              "props": {
+                "src": "http://d1nu0gr0bkbcfc.cloudfront.net/images/wallpapers/IkkoRow1.png",
+                "style": {
+                  "width": "100%"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "height": "100px"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "img",
+              "variant": "default",
+              "props": {
+                "src": "http://d1nu0gr0bkbcfc.cloudfront.net/images/wallpapers/IkkoRow2.png",
+                "style": {
+                  "width": "100%"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "height": "100px"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "img",
+              "variant": "default",
+              "props": {
+                "src": "http://d1nu0gr0bkbcfc.cloudfront.net/images/wallpapers/IkkoRow3.png",
+                "style": {
+                  "width": "100%"
+                }
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pageName": "Page215",
+      "pagePath": "/new-page",
+      "children": [
+        {
+          "type": "div",
+          "props": {
+            "style": {
+              "height": "200px",
+              "width": "200px"
+            },
+            "className": "trigger"
+          },
+          "children": [
+            {
+              "type": "img",
+              "variant": "default",
+              "props": {
+                "src": "http://lorempixel.com/600/337/nature/",
+                "style": {
+                  "width": "100%",
+                  "height": "100%"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "height": "200px",
+                  "width": "200px",
+                  "position": "absolute",
+                  "top": "0px",
+                  "backgroundColor": "rgba(163, 96, 96, 0.45)"
+                },
+                "className": "target"
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "fontSize": "30px",
+                      "color": "#ffffff",
+                      "fontFamily": "Helvetica",
+                      "position": "absolute",
+                      "transform": "translate(-50%, -50%)",
+                      "top": "50%",
+                      "left": "50%"
+                    }
+                  },
+                  "children": [],
+                  "text": "Text"
                 }
               ]
             }
