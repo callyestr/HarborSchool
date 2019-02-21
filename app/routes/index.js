@@ -1,8 +1,8 @@
 import React from "react";
 import Page6 from "./Page6";
 import Page40 from "./Page40";
-import Page352 from "./Page352";
 import Page452 from "./Page452";
+import Page352 from "./Page352";
 import Page215 from "./Page215";
 
 class App extends React.Component {
@@ -31,14 +31,14 @@ export default {
       component: Page40
     },
     {
-      path: "/Pixel2017",
-      name: "/Pixel2017",
-      component: Page352
-    },
-    {
       path: "/GH2018",
       name: "/GH2018",
       component: Page452
+    },
+    {
+      path: "/Pixel2017",
+      name: "/Pixel2017",
+      component: Page352
     },
     {
       path: "/new-page",

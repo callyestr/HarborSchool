@@ -1427,7 +1427,7 @@
                   "props": {
                     "autoPlay": true,
                     "loop": true,
-                    "muted": false,
+                    "muted": true,
                     "style": {
                       "width": "100%",
                       "marginTop": "20px"
@@ -1477,7 +1477,7 @@
                   "props": {
                     "autoPlay": true,
                     "loop": true,
-                    "muted": false,
+                    "muted": true,
                     "style": {
                       "width": "100%",
                       "marginTop": "20px"
@@ -1527,7 +1527,7 @@
                   "props": {
                     "autoPlay": true,
                     "loop": true,
-                    "muted": false,
+                    "muted": true,
                     "style": {
                       "width": "100%",
                       "marginTop": "20px"

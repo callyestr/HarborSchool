@@ -150,7 +150,7 @@ class Page452 extends Component {
             <video
               autoPlay={true}
               loop={true}
-              muted={false}
+              muted={true}
               style={{ width: "100%", marginTop: "20px" }}
             >
               <source
@@ -167,7 +167,7 @@ class Page452 extends Component {
             <video
               autoPlay={true}
               loop={true}
-              muted={false}
+              muted={true}
               style={{ width: "100%", marginTop: "20px" }}
             >
               <source
@@ -184,7 +184,7 @@ class Page452 extends Component {
             <video
               autoPlay={true}
               loop={true}
-              muted={false}
+              muted={true}
               style={{ width: "100%", marginTop: "20px" }}
             >
               <source
@@ -199,7 +199,7 @@ class Page452 extends Component {
             <video
               autoPlay={true}
               loop={true}
-              muted={false}
+              muted={true}
               style={{ width: "100%", marginTop: "20px" }}
             >
               <source
