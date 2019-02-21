@@ -12,8 +12,16 @@ const style = css`
     }
   }
 
-  body {
+  .work:hover {
+    font-weight: 800 !important;
+    font-size: 19px !important;
   }
+
+  .about:hover {
+    font-weight: 800 !important;
+    font-size: 19px !important;
+  }
+
   @import url("https://fonts.googleapis.com/css?family=Karla");
 
   @import url("https://fonts.googleapis.com/css?family=Oleo+Script:400,700");

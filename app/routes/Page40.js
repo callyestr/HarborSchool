@@ -24,26 +24,53 @@ class Page40 extends Component {
             backgroundColor: "#ffffff"
           }}
         >
-          <div style={{ position: "relative", fontFamily: "Karla" }}>
+          <div style={{ position: "relative", fontFamily: "Helvetica Neue" }}>
             <Row style={{ backgroundColor: "#ffffff", height: "40px" }}>
-              <Column col={2} style={{ fontSize: "18px", fontWeight: 500 }}>
+              <Column
+                col={2}
+                style={{
+                  fontSize: "18px",
+                  fontWeight: 500,
+                  paddingLeft: "12px"
+                }}
+              >
                 <a
                   href="/work"
                   style={{ color: "#222222", textDecoration: "none" }}
                 >
-                  <span>Parteek Saran.</span>
+                  <span style={{ fontSize: "18px", fontWeight: 400 }}>
+                    Parteek Saran.
+                  </span>
                 </a>
               </Column>
               <Column col={8} style={{ backgroundColor: "#ffffff" }} />
               <Column col={1} style={{ backgroundColor: "#ffffff" }}>
-                <span style={{ fontWeight: 800 }}>Work</span>
+                <a href="/work" style={{ textDecoration: "none" }}>
+                  <span
+                    style={{
+                      fontWeight: 400,
+                      color: "#222222",
+                      fontSize: "18px"
+                    }}
+                    className="work"
+                  >
+                    Work
+                  </span>
+                </a>
               </Column>
               <Column col={1} style={{ backgroundColor: "#ffffff" }}>
-                <a
-                  href="#"
-                  style={{ textDecoration: "none", color: "#222222" }}
-                >
-                  <span>About</span>
+                <a href="/about" style={{ textDecoration: "none" }}>
+                  <span
+                    style={{
+                      textDecoration: "none",
+                      color: "#222222",
+                      fontSize: "18px",
+                      fontWeight: 400
+                    }}
+                    className="about"
+                  >
+                    About
+                  </span>
                 </a>
               </Column>
             </Row>
@@ -143,6 +170,7 @@ class Page40 extends Component {
               </Column>
             </Row>
           </div>
+          <div style={{ position: "relative", fontFamily: "Helvetica Neue" }} />
         </div>
 
       </div>

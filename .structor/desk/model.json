@@ -23,7 +23,7 @@
               "props": {
                 "style": {
                   "position": "relative",
-                  "fontFamily": "Karla"
+                  "fontFamily": "Helvetica Neue"
                 }
               },
               "children": [
@@ -49,7 +49,12 @@
                             {
                               "type": "span",
                               "variant": "default",
-                              "props": {},
+                              "props": {
+                                "style": {
+                                  "fontSize": "18px",
+                                  "fontWeight": 400
+                                }
+                              },
                               "children": [],
                               "text": "Parteek Saran."
                             }
@@ -61,7 +66,8 @@
                         "col": 2,
                         "style": {
                           "fontSize": "18px",
-                          "fontWeight": 500
+                          "fontWeight": 500,
+                          "paddingLeft": "12px"
                         }
                       }
                     },
@@ -82,16 +88,30 @@
                       "variant": "default",
                       "children": [
                         {
-                          "type": "span",
+                          "type": "a",
                           "variant": "default",
                           "props": {
+                            "href": "/work",
                             "style": {
-                              "fontWeight": 800,
-                              "color": "#222222"
+                              "textDecoration": "none"
                             }
                           },
-                          "children": [],
-                          "text": "Work"
+                          "children": [
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "fontWeight": 400,
+                                  "color": "#222222",
+                                  "fontSize": "18px"
+                                },
+                                "className": "work"
+                              },
+                              "children": [],
+                              "text": "Work"
+                            }
+                          ]
                         }
                       ],
                       "namespace": "Layout",
@@ -122,8 +142,11 @@
                               "props": {
                                 "style": {
                                   "textDecoration": "none",
-                                  "color": "#222222"
-                                }
+                                  "color": "#222222",
+                                  "fontSize": "18px",
+                                  "fontWeight": 400
+                                },
+                                "className": "about"
                               },
                               "children": [],
                               "text": "About"
@@ -194,7 +217,7 @@
                         }
                       },
                       "children": [],
-                      "text": "Google Hardware"
+                      "text": "Google Hardware 2018"
                     },
                     {
                       "type": "span",
@@ -209,7 +232,7 @@
                         }
                       },
                       "children": [],
-                      "text": "2018 Launch"
+                      "text": "Launch"
                     }
                   ]
                 }
@@ -245,22 +268,7 @@
                         }
                       },
                       "children": [],
-                      "text": "Pixel 2017"
-                    },
-                    {
-                      "type": "span",
-                      "variant": "default",
-                      "props": {
-                        "style": {
-                          "fontSize": "50px",
-                          "fontWeight": 400,
-                          "display": "block",
-                          "fontFamily": "Helvetica Neue",
-                          "padding": "5px"
-                        }
-                      },
-                      "children": [],
-                      "text": "Wallpapers"
+                      "text": "Pixel 2017 Wallpapers"
                     }
                   ]
                 }
@@ -289,22 +297,7 @@
                     }
                   },
                   "children": [],
-                  "text": "Google Hardware"
-                },
-                {
-                  "type": "span",
-                  "variant": "default",
-                  "props": {
-                    "style": {
-                      "fontSize": "50px",
-                      "fontWeight": 400,
-                      "display": "block",
-                      "fontFamily": "Helvetica Neue",
-                      "padding": "5px"
-                    }
-                  },
-                  "children": [],
-                  "text": "Lookbook"
+                  "text": "Google Hardware Lookbook"
                 }
               ]
             },
@@ -330,7 +323,7 @@
                     }
                   },
                   "children": [],
-                  "text": "Google Hardware"
+                  "text": "Google Hardware Brand"
                 },
                 {
                   "type": "span",
@@ -665,7 +658,7 @@
               "props": {
                 "style": {
                   "position": "relative",
-                  "fontFamily": "Karla"
+                  "fontFamily": "Helvetica Neue"
                 }
               },
               "children": [
@@ -691,7 +684,12 @@
                             {
                               "type": "span",
                               "variant": "default",
-                              "props": {},
+                              "props": {
+                                "style": {
+                                  "fontSize": "18px",
+                                  "fontWeight": 400
+                                }
+                              },
                               "children": [],
                               "text": "Parteek Saran."
                             }
@@ -703,7 +701,8 @@
                         "col": 2,
                         "style": {
                           "fontSize": "18px",
-                          "fontWeight": 500
+                          "fontWeight": 500,
+                          "paddingLeft": "12px"
                         }
                       }
                     },
@@ -724,15 +723,30 @@
                       "variant": "default",
                       "children": [
                         {
-                          "type": "span",
+                          "type": "a",
                           "variant": "default",
                           "props": {
+                            "href": "/work",
                             "style": {
-                              "fontWeight": 800
+                              "textDecoration": "none"
                             }
                           },
-                          "children": [],
-                          "text": "Work"
+                          "children": [
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "fontWeight": 400,
+                                  "color": "#222222",
+                                  "fontSize": "18px"
+                                },
+                                "className": "work"
+                              },
+                              "children": [],
+                              "text": "Work"
+                            }
+                          ]
                         }
                       ],
                       "namespace": "Layout",
@@ -751,17 +765,24 @@
                           "type": "a",
                           "variant": "default",
                           "props": {
-                            "href": "#",
+                            "href": "/about",
                             "style": {
-                              "textDecoration": "none",
-                              "color": "#222222"
+                              "textDecoration": "none"
                             }
                           },
                           "children": [
                             {
                               "type": "span",
                               "variant": "default",
-                              "props": {},
+                              "props": {
+                                "style": {
+                                  "textDecoration": "none",
+                                  "color": "#222222",
+                                  "fontSize": "18px",
+                                  "fontWeight": 400
+                                },
+                                "className": "about"
+                              },
                               "children": [],
                               "text": "About"
                             }
@@ -1074,6 +1095,17 @@
                   "namespace": "Layout"
                 }
               ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "position": "relative",
+                  "fontFamily": "Helvetica Neue"
+                }
+              },
+              "children": []
             }
           ]
         }
@@ -1102,7 +1134,7 @@
               "props": {
                 "style": {
                   "position": "relative",
-                  "fontFamily": "Karla"
+                  "fontFamily": "Helvetica Neue"
                 }
               },
               "children": [
@@ -1128,7 +1160,12 @@
                             {
                               "type": "span",
                               "variant": "default",
-                              "props": {},
+                              "props": {
+                                "style": {
+                                  "fontSize": "18px",
+                                  "fontWeight": 400
+                                }
+                              },
                               "children": [],
                               "text": "Parteek Saran."
                             }
@@ -1140,7 +1177,8 @@
                         "col": 2,
                         "style": {
                           "fontSize": "18px",
-                          "fontWeight": 500
+                          "fontWeight": 500,
+                          "paddingLeft": "12px"
                         }
                       }
                     },
@@ -1161,16 +1199,30 @@
                       "variant": "default",
                       "children": [
                         {
-                          "type": "span",
+                          "type": "a",
                           "variant": "default",
                           "props": {
+                            "href": "/work",
                             "style": {
-                              "fontWeight": 800,
-                              "color": "#222222"
+                              "textDecoration": "none"
                             }
                           },
-                          "children": [],
-                          "text": "Work"
+                          "children": [
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "fontWeight": 400,
+                                  "color": "#222222",
+                                  "fontSize": "18px"
+                                },
+                                "className": "work"
+                              },
+                              "children": [],
+                              "text": "Work"
+                            }
+                          ]
                         }
                       ],
                       "namespace": "Layout",
@@ -1201,8 +1253,11 @@
                               "props": {
                                 "style": {
                                   "textDecoration": "none",
-                                  "color": "#222222"
-                                }
+                                  "color": "#222222",
+                                  "fontSize": "18px",
+                                  "fontWeight": 400
+                                },
+                                "className": "about"
                               },
                               "children": [],
                               "text": "About"
@@ -1567,7 +1622,7 @@
               "props": {
                 "style": {
                   "position": "relative",
-                  "fontFamily": "Karla"
+                  "fontFamily": "Helvetica Neue"
                 }
               },
               "children": [
@@ -1593,7 +1648,12 @@
                             {
                               "type": "span",
                               "variant": "default",
-                              "props": {},
+                              "props": {
+                                "style": {
+                                  "fontSize": "18px",
+                                  "fontWeight": 400
+                                }
+                              },
                               "children": [],
                               "text": "Parteek Saran."
                             }
@@ -1605,7 +1665,8 @@
                         "col": 2,
                         "style": {
                           "fontSize": "18px",
-                          "fontWeight": 500
+                          "fontWeight": 500,
+                          "paddingLeft": "12px"
                         }
                       }
                     },
@@ -1626,16 +1687,30 @@
                       "variant": "default",
                       "children": [
                         {
-                          "type": "span",
+                          "type": "a",
                           "variant": "default",
                           "props": {
+                            "href": "/work",
                             "style": {
-                              "fontWeight": 800,
-                              "color": "#222222"
+                              "textDecoration": "none"
                             }
                           },
-                          "children": [],
-                          "text": "Work"
+                          "children": [
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "fontWeight": 400,
+                                  "color": "#222222",
+                                  "fontSize": "18px"
+                                },
+                                "className": "work"
+                              },
+                              "children": [],
+                              "text": "Work"
+                            }
+                          ]
                         }
                       ],
                       "namespace": "Layout",
@@ -1666,8 +1741,11 @@
                               "props": {
                                 "style": {
                                   "textDecoration": "none",
-                                  "color": "#222222"
-                                }
+                                  "color": "#222222",
+                                  "fontSize": "18px",
+                                  "fontWeight": 400
+                                },
+                                "className": "about"
                               },
                               "children": [],
                               "text": "About"
