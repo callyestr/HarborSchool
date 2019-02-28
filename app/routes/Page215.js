@@ -12,7 +12,6 @@ class Page215 extends Component {
   render() {
     return (
       <div>
-
         <div style={{ height: "200px", width: "200px" }} className="trigger">
           <img
             src="http://lorempixel.com/600/337/nature/"
@@ -43,7 +42,6 @@ class Page215 extends Component {
             </span>
           </div>
         </div>
-
       </div>
     ); // eslint-disable-line
   }

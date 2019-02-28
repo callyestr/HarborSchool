@@ -3,10 +3,12 @@
  * Page452
  *
  */
+//work1
 
 import React, { Component } from "react";
 
 import { Row, Column } from "modules/Layout";
+import { wem2 } from "ruucm-blocks/tools/mixins";
 
 class Page452 extends Component {
   // eslint-disable-line react/prefer-stateless-function
@@ -14,7 +16,6 @@ class Page452 extends Component {
   render() {
     return (
       <div>
-
         <div
           style={{
             paddingTop: "50px",
@@ -29,16 +30,17 @@ class Page452 extends Component {
               <Column
                 col={2}
                 style={{
-                  fontSize: "18px",
+                  fontSize: wem2(18),
                   fontWeight: 500,
                   paddingLeft: "12px"
                 }}
+                className="saran_logo"
               >
                 <a
                   href="/work"
                   style={{ color: "#222222", textDecoration: "none" }}
                 >
-                  <span style={{ fontSize: "18px", fontWeight: 400 }}>
+                  <span style={{ fontSize: wem2(18), fontWeight: 400 }}>
                     Parteek Saran.
                   </span>
                 </a>
@@ -50,7 +52,7 @@ class Page452 extends Component {
                     style={{
                       fontWeight: 400,
                       color: "#222222",
-                      fontSize: "18px"
+                      fontSize: wem2(18)
                     }}
                     className="work"
                   >
@@ -64,7 +66,7 @@ class Page452 extends Component {
                     style={{
                       textDecoration: "none",
                       color: "#222222",
-                      fontSize: "18px",
+                      fontSize: wem2(18),
                       fontWeight: 400
                     }}
                     className="about"
@@ -84,14 +86,14 @@ class Page452 extends Component {
             paddingBottom: "50px",
             paddingLeft: "10%",
             backgroundColor: "#ffffff",
-            fontSize: "36px",
+            fontSize: wem2(36),
             fontFamily: "HelveticaNeue"
           }}
         >
           <div style={{ marginBottom: "50px" }}>
             <span
               style={{
-                fontSize: "140px",
+                fontSize: wem2(140),
                 fontWeight: 700,
                 display: "block",
                 fontFamily: "Helvetica Neue",
@@ -99,12 +101,13 @@ class Page452 extends Component {
                 paddingBottom: "45px",
                 color: "#222222"
               }}
+              className="gh_1"
             >
               Google
             </span>
             <span
               style={{
-                fontSize: "140px",
+                fontSize: wem2(140),
                 fontWeight: 700,
                 display: "block",
                 fontFamily: "Helvetica Neue",
@@ -112,12 +115,13 @@ class Page452 extends Component {
                 paddingBottom: "45px",
                 color: "#222222"
               }}
+              className="gh_1"
             >
               Hardware 2018
             </span>
             <span
               style={{
-                fontSize: "140px",
+                fontSize: wem2(140),
                 fontWeight: 700,
                 display: "block",
                 fontFamily: "Helvetica Neue",
@@ -125,6 +129,7 @@ class Page452 extends Component {
                 paddingBottom: "45px",
                 color: "#222222"
               }}
+              className="gh_1"
             >
               Launch
             </span>
@@ -133,14 +138,17 @@ class Page452 extends Component {
             <Column col={5}>
               <span
                 style={{
-                  fontWeight: 400,
+                  fontSize: wem2(140),
                   fontFamily: "HelveticaNeue",
                   color: "#222222",
-                  fontSize: "18px",
+                  fontSize: wem2(18),
                   lineHeight: "23px"
                 }}
               >
-                Worked with design team to develop the story and art direction of the product reveals for the Google Hardware 2018 launch. Team: Philip Battin, Curtis Flanagan, Nathan Allen, Parteek Saran. 3D Production and Animation Kuhl&Han.
+                Worked with design team to develop the story and art direction
+                of the product reveals for the Google Hardware 2018 launch.
+                Team: Philip Battin, Curtis Flanagan, Nathan Allen, Parteek
+                Saran. 3D Production and Animation Kuhl&Han.
               </span>
             </Column>
           </Row>
@@ -199,7 +207,7 @@ class Page452 extends Component {
             <video
               autoPlay={true}
               loop={true}
-              muted={true}
+              muted={false}
               style={{ width: "100%", marginTop: "20px" }}
             >
               <source
@@ -209,7 +217,6 @@ class Page452 extends Component {
             </video>
           </div>
         </div>
-
       </div>
     ); // eslint-disable-line
   }

@@ -3,18 +3,17 @@
  * Page352
  *
  */
-
+// work2
 import React, { Component } from "react";
 
 import { Row, Column } from "modules/Layout";
-
+import { wem2 } from "ruucm-blocks/tools/mixins";
 class Page352 extends Component {
   // eslint-disable-line react/prefer-stateless-function
 
   render() {
     return (
       <div>
-
         <div
           style={{
             paddingTop: "50px",
@@ -29,16 +28,17 @@ class Page352 extends Component {
               <Column
                 col={2}
                 style={{
-                  fontSize: "18px",
+                  fontSize: wem2(18),
                   fontWeight: 500,
                   paddingLeft: "12px"
                 }}
+                className="saran_logo"
               >
                 <a
                   href="/work"
                   style={{ color: "#222222", textDecoration: "none" }}
                 >
-                  <span style={{ fontSize: "18px", fontWeight: 400 }}>
+                  <span style={{ fontSize: wem2(18), fontWeight: 400 }}>
                     Parteek Saran.
                   </span>
                 </a>
@@ -50,7 +50,7 @@ class Page352 extends Component {
                     style={{
                       fontWeight: 400,
                       color: "#222222",
-                      fontSize: "18px"
+                      fontSize: wem2(18)
                     }}
                     className="work"
                   >
@@ -64,7 +64,7 @@ class Page352 extends Component {
                     style={{
                       textDecoration: "none",
                       color: "#222222",
-                      fontSize: "18px",
+                      fontSize: wem2(18),
                       fontWeight: 400
                     }}
                     className="about"
@@ -84,7 +84,7 @@ class Page352 extends Component {
             paddingBottom: "50px",
             paddingLeft: "10%",
             backgroundColor: "#ffffff",
-            fontSize: "36px",
+            fontSize: wem2(36),
             fontFamily: "HelveticaNeue",
             width: "100%"
           }}
@@ -92,7 +92,7 @@ class Page352 extends Component {
           <div style={{ marginBottom: "50px" }}>
             <span
               style={{
-                fontSize: "140px",
+                fontSize: wem2(140),
                 fontWeight: 700,
                 display: "block",
                 fontFamily: "Helvetica Neue",
@@ -100,6 +100,7 @@ class Page352 extends Component {
                 paddingBottom: "45px",
                 color: "#222222"
               }}
+              className="pw_1"
             >
               Pixel 2017 Wallpapers
             </span>
@@ -111,11 +112,13 @@ class Page352 extends Component {
                   fontWeight: 400,
                   fontFamily: "Karla",
                   color: "#222222",
-                  fontSize: "18px",
+                  fontSize: wem2(18),
                   lineHeight: "10px"
                 }}
               >
-                I had the pleasure of being commissioned to create a set of wallpapers that are included with the 2017 Google Pixel devices, Pixel 2 and Pixel 2 XL.
+                I had the pleasure of being commissioned to create a set of
+                wallpapers that are included with the 2017 Google Pixel devices,
+                Pixel 2 and Pixel 2 XL.
               </span>
             </Column>
             <Column col={7} style={{ lineHeight: "23px" }} />
@@ -126,11 +129,12 @@ class Page352 extends Component {
                   fontWeight: 400,
                   fontFamily: "Karla",
                   color: "#222222",
-                  fontSize: "18px",
+                  fontSize: wem2(18),
                   lineHeight: "10px"
                 }}
               >
-                This is a collection of 3D rendered wallpapers that bring focus to the simple objects we are surrounded with. By Parteek Saran.
+                This is a collection of 3D rendered wallpapers that bring focus
+                to the simple objects we are surrounded with. By Parteek Saran.
               </span>
             </Column>
           </Row>
@@ -173,7 +177,7 @@ class Page352 extends Component {
                   fontWeight: 400,
                   fontFamily: "Karla",
                   color: "#222222",
-                  fontSize: "50px",
+                  fontSize: wem2(50),
                   lineHeight: "10px",
                   display: "block",
                   marginBottom: "40px"
@@ -186,7 +190,7 @@ class Page352 extends Component {
                   fontWeight: 400,
                   fontFamily: "Karla",
                   color: "#222222",
-                  fontSize: "18px",
+                  fontSize: wem2(18),
                   lineHeight: "10px"
                 }}
               >
@@ -201,11 +205,16 @@ class Page352 extends Component {
                   fontWeight: 400,
                   fontFamily: "Karla",
                   color: "#222222",
-                  fontSize: "18px",
+                  fontSize: wem2(18),
                   lineHeight: "10px"
                 }}
               >
-                In the shadows is another wallpaper collection included with the 2017 Pixel phones. We collaborated with artist and photographer Nicholas Alan Cope to photograph an elegant set of wallpapers capturing the beauty of how shadows play with forms and surfaces. Worked with a talented team helping out with art direction. Team: Eunyoung Park, Emily Blank, Parteek Saran.
+                In the shadows is another wallpaper collection included with the
+                2017 Pixel phones. We collaborated with artist and photographer
+                Nicholas Alan Cope to photograph an elegant set of wallpapers
+                capturing the beauty of how shadows play with forms and
+                surfaces. Worked with a talented team helping out with art
+                direction. Team: Eunyoung Park, Emily Blank, Parteek Saran.
               </span>
             </Column>
             <Column col={7} style={{ lineHeight: "23px" }} />
@@ -238,7 +247,7 @@ class Page352 extends Component {
                   fontWeight: 400,
                   fontFamily: "Karla",
                   color: "#222222",
-                  fontSize: "50px",
+                  fontSize: wem2(50),
                   lineHeight: "10px",
                   display: "block",
                   marginBottom: "40px"
@@ -251,7 +260,7 @@ class Page352 extends Component {
                   fontWeight: 400,
                   fontFamily: "Karla",
                   color: "#222222",
-                  fontSize: "18px",
+                  fontSize: wem2(18),
                   lineHeight: "10px"
                 }}
               >
@@ -266,11 +275,14 @@ class Page352 extends Component {
                   fontWeight: 400,
                   fontFamily: "Karla",
                   color: "#222222",
-                  fontSize: "18px",
+                  fontSize: wem2(18),
                   lineHeight: "10px"
                 }}
               >
-                We collaborated with Leta Sobierajski and Wade Jeffree to create a set of playful and energetic wallpapers fot the 2017 Pixel devices. Our team worked with them on defining the creative direction.
+                We collaborated with Leta Sobierajski and Wade Jeffree to create
+                a set of playful and energetic wallpapers fot the 2017 Pixel
+                devices. Our team worked with them on defining the creative
+                direction.
               </span>
             </Column>
             <Column col={7} style={{ lineHeight: "23px" }} />
@@ -280,7 +292,7 @@ class Page352 extends Component {
                   fontWeight: 400,
                   fontFamily: "Karla",
                   color: "#222222",
-                  fontSize: "18px",
+                  fontSize: wem2(18),
                   lineHeight: "10px"
                 }}
               >
@@ -310,7 +322,6 @@ class Page352 extends Component {
             style={{ width: "100%" }}
           />
         </div>
-
       </div>
     ); // eslint-disable-line
   }

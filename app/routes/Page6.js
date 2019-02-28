@@ -3,18 +3,17 @@
  * Page6
  *
  */
-
+// home
 import React, { Component } from "react";
 
 import { Row, Column } from "modules/Layout";
-
+import { wem2 } from "ruucm-blocks/tools/mixins";
 class Page6 extends Component {
   // eslint-disable-line react/prefer-stateless-function
 
   render() {
     return (
       <div>
-
         <div
           style={{
             paddingTop: "50px",
@@ -29,16 +28,17 @@ class Page6 extends Component {
               <Column
                 col={2}
                 style={{
-                  fontSize: "18px",
+                  fontSize: wem2(18),
                   fontWeight: 500,
                   paddingLeft: "12px"
                 }}
+                className="saran_logo"
               >
                 <a
                   href="/work"
                   style={{ color: "#222222", textDecoration: "none" }}
                 >
-                  <span style={{ fontSize: "18px", fontWeight: 400 }}>
+                  <span style={{ fontSize: wem2(18), fontWeight: 400 }}>
                     Parteek Saran.
                   </span>
                 </a>
@@ -50,7 +50,7 @@ class Page6 extends Component {
                     style={{
                       fontWeight: 400,
                       color: "#222222",
-                      fontSize: "18px"
+                      fontSize: wem2(18)
                     }}
                     className="work"
                   >
@@ -64,7 +64,7 @@ class Page6 extends Component {
                     style={{
                       textDecoration: "none",
                       color: "#222222",
-                      fontSize: "18px",
+                      fontSize: wem2(18),
                       fontWeight: 400
                     }}
                     className="about"
@@ -87,7 +87,7 @@ class Page6 extends Component {
             >
               <span
                 style={{
-                  fontSize: "50px",
+                  fontSize: wem2(50),
                   fontWeight: 400,
                   display: "block",
                   fontFamily: "Helvetica Neue",
@@ -98,7 +98,7 @@ class Page6 extends Component {
               </span>
               <span
                 style={{
-                  fontSize: "50px",
+                  fontSize: wem2(50),
                   fontWeight: 400,
                   display: "block",
                   fontFamily: "Helvetica Neue",
@@ -120,7 +120,7 @@ class Page6 extends Component {
             <div>
               <span
                 style={{
-                  fontSize: "50px",
+                  fontSize: wem2(50),
                   fontWeight: 400,
                   display: "block",
                   fontFamily: "Helvetica Neue",
@@ -134,7 +134,7 @@ class Page6 extends Component {
           <div style={{ marginBottom: "50px", marginTop: "50px" }}>
             <span
               style={{
-                fontSize: "50px",
+                fontSize: wem2(50),
                 fontWeight: 400,
                 display: "block",
                 fontFamily: "Helvetica Neue",
@@ -147,7 +147,7 @@ class Page6 extends Component {
           <div style={{ marginBottom: "50px" }}>
             <span
               style={{
-                fontSize: "50px",
+                fontSize: wem2(50),
                 fontWeight: 400,
                 display: "block",
                 fontFamily: "Helvetica Neue",
@@ -158,7 +158,7 @@ class Page6 extends Component {
             </span>
             <span
               style={{
-                fontSize: "50px",
+                fontSize: wem2(50),
                 fontWeight: 400,
                 display: "block",
                 fontFamily: "Helvetica Neue",
@@ -169,7 +169,7 @@ class Page6 extends Component {
             </span>
             <span
               style={{
-                fontSize: "15px",
+                fontSize: wem2(15),
                 fontWeight: 400,
                 display: "block",
                 fontFamily: "Helvetica Neue",
@@ -183,7 +183,7 @@ class Page6 extends Component {
           <div style={{ marginBottom: "50px" }}>
             <span
               style={{
-                fontSize: "50px",
+                fontSize: wem2(50),
                 fontWeight: 400,
                 display: "block",
                 fontFamily: "Helvetica Neue",
@@ -194,7 +194,7 @@ class Page6 extends Component {
             </span>
             <span
               style={{
-                fontSize: "50px",
+                fontSize: wem2(50),
                 fontWeight: 400,
                 display: "block",
                 fontFamily: "Helvetica Neue",
@@ -205,7 +205,7 @@ class Page6 extends Component {
             </span>
             <span
               style={{
-                fontSize: "15px",
+                fontSize: wem2(15),
                 fontWeight: 400,
                 display: "block",
                 fontFamily: "Helvetica Neue",
@@ -219,7 +219,7 @@ class Page6 extends Component {
           <div style={{ marginBottom: "50px" }}>
             <span
               style={{
-                fontSize: "50px",
+                fontSize: wem2(50),
                 fontWeight: 400,
                 display: "inline-block",
                 fontFamily: "Helvetica Neue",
@@ -230,7 +230,7 @@ class Page6 extends Component {
             </span>
             <span
               style={{
-                fontSize: "15px",
+                fontSize: wem2(15),
                 fontWeight: 400,
                 display: "inline",
                 fontFamily: "Helvetica Neue",
@@ -248,7 +248,7 @@ class Page6 extends Component {
           <div style={{ marginBottom: "50px" }}>
             <span
               style={{
-                fontSize: "50px",
+                fontSize: wem2(50),
                 fontWeight: 400,
                 display: "inline-block",
                 fontFamily: "Helvetica Neue",
@@ -259,7 +259,7 @@ class Page6 extends Component {
             </span>
             <span
               style={{
-                fontSize: "15px",
+                fontSize: wem2(15),
                 fontWeight: 400,
                 display: "inline",
                 fontFamily: "Helvetica Neue",
@@ -277,7 +277,7 @@ class Page6 extends Component {
           <div style={{ marginBottom: "50px" }}>
             <span
               style={{
-                fontSize: "50px",
+                fontSize: wem2(50),
                 fontWeight: 400,
                 display: "inline-block",
                 fontFamily: "Helvetica Neue",
@@ -288,7 +288,7 @@ class Page6 extends Component {
             </span>
             <span
               style={{
-                fontSize: "15px",
+                fontSize: wem2(15),
                 fontWeight: 400,
                 display: "inline",
                 fontFamily: "Helvetica Neue",
@@ -306,7 +306,7 @@ class Page6 extends Component {
           <div style={{ marginBottom: "50px" }}>
             <span
               style={{
-                fontSize: "50px",
+                fontSize: wem2(50),
                 fontWeight: 400,
                 display: "inline-block",
                 fontFamily: "Helvetica Neue",
@@ -319,7 +319,7 @@ class Page6 extends Component {
           <div style={{ marginBottom: "50px" }}>
             <span
               style={{
-                fontSize: "50px",
+                fontSize: wem2(50),
                 fontWeight: 400,
                 display: "inline-block",
                 fontFamily: "Helvetica Neue",
@@ -332,7 +332,7 @@ class Page6 extends Component {
           <div style={{ marginBottom: "50px" }}>
             <span
               style={{
-                fontSize: "50px",
+                fontSize: wem2(50),
                 fontWeight: 400,
                 display: "inline-block",
                 fontFamily: "Helvetica Neue",
@@ -343,7 +343,6 @@ class Page6 extends Component {
             </span>
           </div>
         </div>
-
       </div>
     ); // eslint-disable-line
   }

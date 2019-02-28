@@ -7,14 +7,13 @@
 import React, { Component } from "react";
 
 import { Row, Column } from "modules/Layout";
-
+import { wem2 } from "ruucm-blocks/tools/mixins";
 class Page40 extends Component {
   // eslint-disable-line react/prefer-stateless-function
 
   render() {
     return (
       <div>
-
         <div
           style={{
             paddingTop: "50px",
@@ -29,16 +28,17 @@ class Page40 extends Component {
               <Column
                 col={2}
                 style={{
-                  fontSize: "18px",
+                  fontSize: wem2(18),
                   fontWeight: 500,
                   paddingLeft: "12px"
                 }}
+                className="saran_logo"
               >
                 <a
                   href="/work"
                   style={{ color: "#222222", textDecoration: "none" }}
                 >
-                  <span style={{ fontSize: "18px", fontWeight: 400 }}>
+                  <span style={{ fontSize: wem2(18), fontWeight: 400 }}>
                     Parteek Saran.
                   </span>
                 </a>
@@ -50,7 +50,7 @@ class Page40 extends Component {
                     style={{
                       fontWeight: 400,
                       color: "#222222",
-                      fontSize: "18px"
+                      fontSize: wem2(18)
                     }}
                     className="work"
                   >
@@ -64,7 +64,7 @@ class Page40 extends Component {
                     style={{
                       textDecoration: "none",
                       color: "#222222",
-                      fontSize: "18px",
+                      fontSize: wem2(18),
                       fontWeight: 400
                     }}
                     className="about"
@@ -89,21 +89,26 @@ class Page40 extends Component {
               <Column col={3} style={{ margin: "35px" }}>
                 <Row>
                   <Column col={12}>
-                    <span style={{ fontFamily: "Karla", fontSize: "50px" }}>
+                    <span style={{ fontFamily: "Karla", fontSize: wem2(50) }}>
                       About
                     </span>
                   </Column>
-                  <Column col={12}><div style={{ height: "30px" }} /></Column>
+                  <Column col={12}>
+                    <div style={{ height: "30px" }} />
+                  </Column>
                   <Column col={10}>
                     <span
                       style={{
                         fontFamily: "Karla, sans-serif",
-                        fontSize: "18",
+                        fontSize: wem2(17.5),
                         fontWeight: 300,
                         lineHeight: "22px"
                       }}
                     >
-                      Parteek Saran is a designer living in San Francisco, CA. He also enjoys riding his bicycle and eating croissants. Just wants to make good things with good folks. Available to collaborate on porjects.
+                      Parteek Saran is a designer living in San Francisco, CA.
+                      He also enjoys riding his bicycle and eating croissants.
+                      Just wants to make good things with good folks. Available
+                      to collaborate on porjects.
                     </span>
                   </Column>
                   <Column col={2} />
@@ -115,18 +120,20 @@ class Page40 extends Component {
                     <span
                       style={{
                         fontFamily: "Karla, sans-serif",
-                        fontSize: "50px"
+                        fontSize: wem2(50)
                       }}
                     >
                       Contact
                     </span>
                   </Column>
-                  <Column col={12}><div style={{ height: "30px" }} /></Column>
+                  <Column col={12}>
+                    <div style={{ height: "30px" }} />
+                  </Column>
                   <Column col={12}>
                     <span
                       style={{
                         fontFamily: "Karla, sans-serif",
-                        fontSize: "18",
+                        fontSize: wem2(18),
                         fontWeight: 300,
                         lineHeight: "22px"
                       }}
@@ -136,7 +143,7 @@ class Page40 extends Component {
                     <span
                       style={{
                         fontFamily: "Karla, sans-serif",
-                        fontSize: "18",
+                        fontSize: wem2(18),
                         fontWeight: 300,
                         lineHeight: "22px"
                       }}
@@ -147,7 +154,7 @@ class Page40 extends Component {
                     <span
                       style={{
                         fontFamily: "Karla, sans-serif",
-                        fontSize: "18",
+                        fontSize: wem2(18),
                         fontWeight: 300,
                         lineHeight: "22px"
                       }}
@@ -158,7 +165,7 @@ class Page40 extends Component {
                     <span
                       style={{
                         fontFamily: "Karla, sans-serif",
-                        fontSize: "18",
+                        fontSize: wem2(18),
                         fontWeight: 300,
                         lineHeight: "22px"
                       }}
@@ -172,7 +179,6 @@ class Page40 extends Component {
           </div>
           <div style={{ position: "relative", fontFamily: "Helvetica Neue" }} />
         </div>
-
       </div>
     ); // eslint-disable-line
   }
